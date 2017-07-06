@@ -1,0 +1,7 @@
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttribute.cs
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/bin/Debug/PorpoiseUITest.pdb
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/bin/Debug/PorpoiseUITest.dll
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/obj/Debug/PorpoiseUITest.dll
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/obj/Debug/PorpoiseUITest.pdb
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/bin/Debug/nunit.framework.dll
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/bin/Debug/Xamarin.UITest.dll

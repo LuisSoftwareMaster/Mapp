@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.intercom.android.sdk"
+    android:versionName="3.0.17" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <activity
+            android:name="io.intercom.android.sdk.activities.IntercomMessengerActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Intercom_PanelTheme"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="io.intercom.android.sdk.attachments.AttachmentActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:theme="@style/Intercom_AttachmentTheme"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="io.intercom.android.sdk.lightbox.LightBoxActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:theme="@style/Intercom_LightBoxTheme"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name="io.intercom.android.sdk.activities.IntercomArticleActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Intercom_ArticleTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="io.intercom.android.sdk.activities.IntercomPostActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Intercom_PostTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="io.intercom.android.sdk.activities.IntercomNoteActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Intercom_NoteTheme"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+
+        <receiver
+            android:name="io.intercom.android.sdk.push.IntercomPushBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="io.intercom.android.sdk.INTERCOM_PUSH_OPENED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="io.intercom.android.sdk.utilities.IntercomGlideModule"
+            android:value="IntercomGlideModule" />
+    </application>
+
+</manifest>

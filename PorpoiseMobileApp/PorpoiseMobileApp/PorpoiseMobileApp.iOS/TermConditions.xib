@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TermConditions">
+            <connections>
+                <outlet property="agree" destination="Zvw-GW-q6k" id="name-outlet-Zvw-GW-q6k"/>
+                <outlet property="back" destination="Zev-T3-Cp8" id="name-outlet-Zev-T3-Cp8"/>
+                <outlet property="contentView" destination="d6K-kA-93D" id="name-outlet-d6K-kA-93D"/>
+                <outlet property="porpoiseLogo" destination="4287" id="name-outlet-4287"/>
+                <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
+                <outlet property="agreementText" destination="4310" id="name-outlet-4310"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6K-kA-93D">
+                    <rect key="frame" x="145" y="102" width="311" height="439"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms, Conditions and Privacy Policy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKL-Mi-rjm">
+                            <rect key="frame" x="20" y="56" width="271" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="271" id="2863"/>
+                                <constraint firstAttribute="height" constant="21" id="2864"/>
+                                <constraint firstAttribute="width" constant="271" id="4305"/>
+                                <constraint firstAttribute="height" constant="21" id="4306"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zev-T3-Cp8" misplaced="YES">
+                            <rect key="frame" x="50" y="380" width="92" height="30"/>
+                            <color key="backgroundColor" red="0.66666954755783081" green="0.66664958000183105" blue="0.66666090488433838" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="92" id="3461"/>
+                                <constraint firstAttribute="width" constant="92" id="4294"/>
+                                <constraint firstAttribute="height" constant="30" id="4295"/>
+                            </constraints>
+                            <state key="normal" title="Back">
+                                <color key="titleShadowColor" red="0.50000208616256714" green="0.49998712539672852" blue="0.49999558925628662" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zvw-GW-q6k">
+                            <rect key="frame" x="161" y="380" width="92" height="30"/>
+                            <color key="backgroundColor" red="0.12775145471096039" green="0.99975275993347168" blue="0.99903839826583862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="92" id="3474"/>
+                                <constraint firstAttribute="width" constant="92" id="4296"/>
+                                <constraint firstAttribute="height" constant="30" id="4297"/>
+                            </constraints>
+                            <state key="normal" title="I Agree">
+                                <color key="titleShadowColor" red="0.50000208616256714" green="0.49998712539672852" blue="0.49999558925628662" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="4310" text="&#xA; &#xA;&#xA;" misplaced="YES">
+                            <rect key="frame" x="36" y="85" width="240" height="280"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="311" id="4286"/>
+                        <constraint firstItem="Zev-T3-Cp8" firstAttribute="leading" secondItem="d6K-kA-93D" secondAttribute="leading" constant="49" id="4298"/>
+                        <constraint firstAttribute="trailing" secondItem="Zvw-GW-q6k" secondAttribute="trailing" constant="58" id="4299"/>
+                        <constraint firstItem="Zvw-GW-q6k" firstAttribute="centerY" secondItem="Zev-T3-Cp8" secondAttribute="centerY" id="4300"/>
+                        <constraint firstAttribute="bottom" secondItem="Zev-T3-Cp8" secondAttribute="bottom" constant="29" id="4301"/>
+                        <constraint firstItem="zKL-Mi-rjm" firstAttribute="centerX" secondItem="d6K-kA-93D" secondAttribute="centerX" id="4304"/>
+                        <constraint firstItem="zKL-Mi-rjm" firstAttribute="top" secondItem="d6K-kA-93D" secondAttribute="top" constant="56" id="4307"/>
+                        <constraint firstItem="4310" firstAttribute="top" secondItem="zKL-Mi-rjm" secondAttribute="bottom" constant="8" id="4314"/>
+                        <constraint firstItem="4310" firstAttribute="leading" secondItem="d6K-kA-93D" secondAttribute="leading" constant="35" id="4315"/>
+                        <constraint firstAttribute="trailing" secondItem="4310" secondAttribute="trailing" constant="35" id="4316"/>
+                        <constraint firstItem="Zev-T3-Cp8" firstAttribute="top" secondItem="4310" secondAttribute="bottom" constant="15" id="4317"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="4287">
+                    <rect key="frame" x="250" y="61" width="100" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="4288"/>
+                        <constraint firstAttribute="width" constant="100" id="4289"/>
+                        <constraint firstAttribute="width" constant="100" id="4291"/>
+                        <constraint firstAttribute="height" constant="80" id="4292"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="d6K-kA-93D" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="4282"/>
+                <constraint firstItem="d6K-kA-93D" firstAttribute="top" secondItem="2" secondAttribute="top" constant="102" id="4283"/>
+                <constraint firstItem="d6K-kA-93D" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="4284"/>
+                <constraint firstAttribute="bottom" secondItem="d6K-kA-93D" secondAttribute="bottom" constant="59" id="4285"/>
+                <constraint firstItem="d6K-kA-93D" firstAttribute="top" secondItem="4287" secondAttribute="centerY" constant="1" id="4290"/>
+                <constraint firstItem="4287" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="4293"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Logo_outline2.png" width="348" height="314"/>
+        <image name="porpoise_background.png" width="1024" height="1366"/>
+        <image name="Next.png" width="67" height="26"/>
+        <image name="logo.png" width="53" height="44"/>
+        <image name="activityIcon.png" width="34" height="34"/>
+        <image name="iconProfile.png" width="34" height="34"/>
+        <image name="intercom.png" width="34" height="34"/>
+        <image name="plusIcon.png" width="34" height="34"/>
+        <image name="settings.png" width="34" height="34"/>
+        <image name="Loading Page.png" width="2732" height="2048"/>
+        <image name="splash.png" width="1579" height="2808"/>
+    </resources>
+</document>

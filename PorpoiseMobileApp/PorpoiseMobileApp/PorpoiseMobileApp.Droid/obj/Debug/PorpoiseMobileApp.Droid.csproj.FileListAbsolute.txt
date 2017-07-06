@@ -1,0 +1,1230 @@
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/PorpoiseMobileApp.Droid.dll.config
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/PorpoiseMobileApp.Droid.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/PorpoiseMobileApp.Droid.pdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/com.porpoise.app.apk
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/com.porpoise.app-Signed.apk
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Acr.Settings.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Acr.Settings.Interface.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Autofac.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.CognitoIdentity.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.Core.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.S3.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.SecurityToken.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Bolts.AppLinks.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Bolts.Tasks.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Calligraphy.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/IntercomBinding_Droid.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Binding.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Binding.Droid.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Core.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Droid.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Droid.Shared.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Droid.Support.V4.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Droid.Support.V7.AppCompat.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Droid.Support.V7.RecyclerView.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Localization.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Platform.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Platform.Droid.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.DownloadCache.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.DownloadCache.Droid.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.File.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.File.Droid.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.Json.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.Permissions.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.PictureChooser.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.PictureChooser.Droid.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.Visibility.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.Visibility.Droid.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Newtonsoft.Json.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/PCLCrypto.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/PCLStorage.Abstractions.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/PCLStorage.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Plugin.CurrentActivity.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Plugin.Permissions.Abstractions.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Plugin.Permissions.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/PorpoiseMobileApp.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Refractored.FloatingActionButton.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Square.OkHttp.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Square.OkIO.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Square.Picasso.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/StickyHeader.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Syncfusion.SfChart.Android.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Syncfusion.SfGauge.Android.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/System.Net.Http.Extensions.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/System.Net.Http.Primitives.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/UniversalImageLoader.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Validation.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Xamarin.Android.Support.Design.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Xamarin.Android.Support.v4.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Xamarin.Android.Support.v7.CardView.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Xamarin.Android.Support.v7.GridLayout.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Xamarin.Android.Support.v7.RecyclerView.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Xamarin.Android.Support.Vector.Drawable.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Xamarin.GooglePlayServices.Ads.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Xamarin.GooglePlayServices.AppIndexing.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Xamarin.GooglePlayServices.Base.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Xamarin.GooglePlayServices.Basement.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/System.Net.Http.Formatting.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.Permissions.pdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.Permissions.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/PorpoiseMobileApp.pdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/PorpoiseMobileApp.dll.config
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.CognitoIdentity.pdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.CognitoIdentity.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.CognitoIdentity.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.Core.pdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.Core.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.Core.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.S3.pdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.S3.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.S3.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.SecurityToken.pdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.SecurityToken.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/AWSSDK.SecurityToken.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Binding.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Droid.Support.V4.dll.config
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Droid.Support.V7.AppCompat.dll.config
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Droid.Support.V7.RecyclerView.dll.config
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Localization.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Platform.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.DownloadCache.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.File.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.PictureChooser.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/MvvmCross.Plugins.Visibility.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Newtonsoft.Json.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/PCLCrypto.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/PCLStorage.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/PCLStorage.Abstractions.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Plugin.CurrentActivity.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Plugin.Permissions.pdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Plugin.Permissions.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Plugin.Permissions.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Plugin.Permissions.Abstractions.pdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Plugin.Permissions.Abstractions.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Plugin.Permissions.Abstractions.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Refractored.FloatingActionButton.pdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Refractored.FloatingActionButton.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Refractored.FloatingActionButton.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/System.Net.Http.Extensions.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/System.Net.Http.Primitives.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Autofac.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/Validation.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/bin/Debug/System.Net.Http.Formatting.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/PorpoiseMobileApp.Droid.csprojResolveAssemblyReference.cache
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/PorpoiseMobileApp.Droid.csproj.CoreCompileInputs.cache
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/PorpoiseMobileApp.Droid.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/PorpoiseMobileApp.Droid.pdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/android/bin/com.porpoise.app.apk
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/toolbar.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/organisations_spinner.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/drawer.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/menu_item.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/profile_header_angled_rectangle.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/activityview.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/single_tab_indicator.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/goal_spinneritem.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/organisation_spinneritem.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/goal_item.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/accountsettingsview.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/goal_details_dialog.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/loginview.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/supportview.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/welldoneorange.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/welldonegray.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/givenwelldones.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/profileselected.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/iconporpoise.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/profile_item.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/post_item.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/profileview.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/view_gallery_thumbnail.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/viewthumbnail.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/grid_item_layout.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/image_9.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/image_7.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/image_8.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/image_6.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/image_5.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/image_4.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/image_3.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/image_2.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/image_1.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/logpostphoto.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/sample_0.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/sample_1.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/sample_2.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/sample_3.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/sample_4.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/sample_5.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/sample_6.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/sample_7.jpg
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/grid_example.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/cancel.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/cancel.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/header.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/header.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/challenges.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/firstview.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/mapsplash.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/color-v21/material_button_color.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/ic_error_black_24dp.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/ic_error_black_24dp.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/ic_error_black_24dp.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/ic_error_black_24dp.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxxhdpi/icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxxhdpi/ic_error_black_24dp.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/arrow_z.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/loadview.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/loghoursview.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/homeview.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/layout/splashscreen.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/values/colors.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/values/strings.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-land/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-land-hdpi/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-land-ldpi/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-land-mdpi/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-land-xhdpi/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-land-xxhdpi/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-land-xxxhdpi/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-ldpi/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/values/styles.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/spinner.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/porpoise_spinner.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/values/attrs.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/values/vpi__attrs.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/values/vpi__colors.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/values/vpi__defaults.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/values/vpi__styles.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/values-v21/dimens.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/values-v21/styles.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/square_button.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/values/dimens.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/custom_tab_indicator.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/custom_tab_indicator_focused.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/custom_tab_indicator_selected.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/custom_tab_indicator_selected_pressed.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/custom_tab_indicator_unselected.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/custom_tab_indicator_unselected_focused.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/custom_tab_indicator_unselected_pressed.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/custom_tab_indicator_selected_focused.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/vpi__tab_indicator.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/vpi__tab_selected_focused_holo.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/vpi__tab_selected_holo.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/vpi__tab_selected_pressed_holo.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/vpi__tab_unselected_focused_holo.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/vpi__tab_unselected_holo.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/vpi__tab_unselected_pressed_holo.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/color/vpi__dark_theme.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/color/vpi__light_theme.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/transparent_square_button.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/edit_text_bottom_border.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/apptheme_edit_text_holo_light.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/apptheme_progress_horizontal_holo_light.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/apptheme_progress_indeterminate_horizontal_holo_light.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_progress_bg_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_progress_primary_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_progress_secondary_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_progressbar_indeterminate_holo1.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_progressbar_indeterminate_holo2.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_progressbar_indeterminate_holo3.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_progressbar_indeterminate_holo4.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_progressbar_indeterminate_holo5.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_progressbar_indeterminate_holo6.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_progressbar_indeterminate_holo7.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_progressbar_indeterminate_holo8.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_textfield_activated_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_textfield_default_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_textfield_disabled_focused_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_textfield_disabled_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/apptheme_textfield_focused_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_progress_bg_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_progress_primary_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_progress_secondary_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_progressbar_indeterminate_holo1.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_progressbar_indeterminate_holo2.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_progressbar_indeterminate_holo3.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_progressbar_indeterminate_holo4.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_progressbar_indeterminate_holo5.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_progressbar_indeterminate_holo6.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_progressbar_indeterminate_holo7.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_progressbar_indeterminate_holo8.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_textfield_activated_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_textfield_default_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_textfield_disabled_focused_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_textfield_disabled_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/apptheme_textfield_focused_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_progress_bg_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_progress_primary_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_progress_secondary_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_progressbar_indeterminate_holo1.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_progressbar_indeterminate_holo2.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_progressbar_indeterminate_holo3.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_progressbar_indeterminate_holo4.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_progressbar_indeterminate_holo5.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_progressbar_indeterminate_holo6.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_progressbar_indeterminate_holo7.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_progressbar_indeterminate_holo8.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_textfield_activated_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_textfield_default_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_textfield_disabled_focused_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_textfield_disabled_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/apptheme_textfield_focused_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_progress_bg_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_progress_primary_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_progress_secondary_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_progressbar_indeterminate_holo1.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_progressbar_indeterminate_holo2.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_progressbar_indeterminate_holo3.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_progressbar_indeterminate_holo4.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_progressbar_indeterminate_holo5.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_progressbar_indeterminate_holo6.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_progressbar_indeterminate_holo7.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_progressbar_indeterminate_holo8.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_textfield_activated_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_textfield_default_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_textfield_disabled_focused_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_textfield_disabled_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/apptheme_textfield_focused_holo_light.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/round_button.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/down_arrow.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/clock.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/ic_activity_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/ic_loghours_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/ic_profile_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/ic_activity_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/ic_loghours_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/ic_profile_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/ic_activity_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/ic_loghours_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/ic_profile_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/ic_activity_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/ic_profile_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/ic_loghours_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/single_tab_indicator_background_selector.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/single_tab_indicator_text_selector.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/white_underline.9.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/edit_pencil_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/thumbs_up_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/edit_pencil_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/thumbs_up_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/edit_pencil_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/thumbs_up_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/grey_border_button.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/ic_thumbs_up.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/ic_thumbs_up.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/ic_thumbs_up.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/ic_thumbs_up.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/whiteborderstyle.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/down_arrow_white.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/camera_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/camera_icon_btn.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/logo_small2_cyan.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/redborderstyle.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/camera_icon_btn_sm.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/whitedashborderstyle.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/whiteopenborderstyle.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/rotate_left.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/rotate_right.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/rotate_right.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/rotate_left.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/rotate_right.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/rotate_left.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/rotate_right.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/login_wordmark_logo.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/play_button_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/play_button_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/ic_create_new.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/shadow_bottom_border.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/ic_top_logo.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/ic_top_logo.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/ic_top_logo.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/ic_top_logo.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/ic_play_button.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/ic_play_button.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/ic_play_button.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/ic_play_button.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxxhdpi/ic_play_button.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/ic_top_logo1.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/ic_top_logo1.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/ic_top_logo1.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/ic_top_logo1.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/bold_plus.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/ic_settings_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/ic_settings_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/ic_settings_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/ic_settings_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/values-w820dp/dimens.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxxhdpi/screen.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/ic_support_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/ic_support_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/ic_support_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/ic_support_icon.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/left_arrow.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/right_arrow.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/porp_logo.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/profile_header.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/tabs_activity_icon_new.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/tabs_activity_icon_new_selected.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/tabs_loghours_icon_new.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/tabs_loghours_icon_new_selected.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/tabs_profile_icon_new.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/tabs_profile_icon_new_selected.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/tabs_settings_icon_new.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/tabs_settings_icon_new_selected.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/tabs_support_icon_new.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/tabs_support_icon_new_selected.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable/pencil_new.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/tabs_support_icon_new_selected.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/tabs_support_icon_new.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/tabs_settings_icon_new_selected.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/tabs_settings_icon_new.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/tabs_profile_icon_new_selected.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/tabs_profile_icon_new.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/tabs_loghours_icon_new_selected.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/tabs_loghours_icon_new.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/tabs_activity_icon_new_selected.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/tabs_activity_icon_new.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/logo_small2.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/logout1.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-hdpi/iconporpoise.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xxhdpi/iconporpoise.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-xhdpi/iconporpoise.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-mdpi/iconporpoise.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/res/drawable-ldpi/iconporpoise.png
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/R.cs.flag
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/obj/Debug/uploadflags.txt
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.Droid.dll.config
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.Droid.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.Droid.pdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\com.porpoise.app.apk
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\com.porpoise.app-Signed.apk
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Acr.Settings.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Acr.Settings.Interface.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Autofac.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.CognitoIdentity.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.Core.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.S3.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.SecurityToken.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Bolts.AppLinks.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Bolts.Tasks.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Calligraphy.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\IntercomBinding_Droid.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Binding.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Binding.Droid.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Core.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Shared.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Support.V4.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Support.V7.AppCompat.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Support.V7.RecyclerView.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Localization.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Platform.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Platform.Droid.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.DownloadCache.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.DownloadCache.Droid.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.File.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.File.Droid.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.Json.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.Permissions.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.PictureChooser.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.PictureChooser.Droid.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.Visibility.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.Visibility.Droid.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PCLCrypto.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PCLStorage.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.CurrentActivity.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.Abstractions.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Refractored.FloatingActionButton.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Square.OkHttp.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Square.OkIO.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Square.Picasso.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\StickyHeader.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Syncfusion.SfChart.Android.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Syncfusion.SfGauge.Android.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\UniversalImageLoader.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Validation.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.v7.GridLayout.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.GooglePlayServices.Ads.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.GooglePlayServices.AppIndexing.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.GooglePlayServices.Base.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.Permissions.pdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.pdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.dll.config
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.CognitoIdentity.pdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.CognitoIdentity.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.CognitoIdentity.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.Core.pdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.Core.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.Core.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.S3.pdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.S3.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.S3.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.SecurityToken.pdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.SecurityToken.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.SecurityToken.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Binding.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Support.V4.dll.config
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Support.V7.AppCompat.dll.config
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Support.V7.RecyclerView.dll.config
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Localization.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Platform.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.DownloadCache.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.File.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.PictureChooser.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.Visibility.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PCLCrypto.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PCLStorage.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.CurrentActivity.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.pdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.Abstractions.pdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.Abstractions.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.Abstractions.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Refractored.FloatingActionButton.pdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Refractored.FloatingActionButton.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Refractored.FloatingActionButton.dll.mdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Autofac.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Validation.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\PorpoiseMobileApp.Droid.csprojResolveAssemblyReference.cache
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\PorpoiseMobileApp.Droid.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\PorpoiseMobileApp.Droid.pdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\bin\com.porpoise.app.apk
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\toolbar.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\organisations_spinner.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\drawer.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\menu_item.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\profile_header_angled_rectangle.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\activityview.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\single_tab_indicator.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\goal_spinneritem.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\organisation_spinneritem.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\goal_item.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\accountsettingsview.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\goal_details_dialog.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\loginview.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\supportview.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\welldoneorange.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\welldonegray.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\givenwelldones.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\profileselected.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\iconporpoise.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\profile_item.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\post_item.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\profileview.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\view_gallery_thumbnail.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\viewthumbnail.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\grid_item_layout.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_9.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_7.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_8.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_6.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_5.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_4.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_3.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_2.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_1.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\logpostphoto.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_0.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_1.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_2.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_3.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_4.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_5.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_6.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_7.jpg
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\grid_example.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\cancel.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\cancel.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\header.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\header.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\challenges.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\firstview.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\mapsplash.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\color-v21\material_button_color.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_error_black_24dp.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_error_black_24dp.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_error_black_24dp.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_error_black_24dp.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxxhdpi\ic_error_black_24dp.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\arrow_z.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\loadview.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\loghoursview.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\homeview.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\splashscreen.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\colors.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\strings.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land-hdpi\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land-ldpi\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land-mdpi\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land-xhdpi\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land-xxhdpi\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land-xxxhdpi\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-ldpi\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\styles.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\spinner.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\porpoise_spinner.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\attrs.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\vpi__attrs.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\vpi__colors.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\vpi__defaults.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\vpi__styles.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values-v21\dimens.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values-v21\styles.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\square_button.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\dimens.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_focused.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_selected.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_selected_pressed.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_unselected.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_unselected_focused.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_unselected_pressed.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_selected_focused.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_indicator.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_selected_focused_holo.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_selected_holo.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_selected_pressed_holo.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_unselected_focused_holo.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_unselected_holo.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_unselected_pressed_holo.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\color\vpi__dark_theme.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\color\vpi__light_theme.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\transparent_square_button.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\edit_text_bottom_border.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\apptheme_edit_text_holo_light.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\apptheme_progress_horizontal_holo_light.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\apptheme_progress_indeterminate_horizontal_holo_light.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progress_bg_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progress_primary_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progress_secondary_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo1.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo2.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo3.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo4.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo5.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo6.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo7.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo8.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_textfield_activated_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_textfield_default_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_textfield_disabled_focused_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_textfield_disabled_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_textfield_focused_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progress_bg_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progress_primary_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progress_secondary_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo1.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo2.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo3.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo4.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo5.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo6.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo7.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo8.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_textfield_activated_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_textfield_default_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_textfield_disabled_focused_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_textfield_disabled_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_textfield_focused_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progress_bg_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progress_primary_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progress_secondary_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo1.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo2.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo3.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo4.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo5.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo6.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo7.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo8.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_textfield_activated_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_textfield_default_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_textfield_disabled_focused_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_textfield_disabled_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_textfield_focused_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progress_bg_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progress_primary_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progress_secondary_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo1.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo2.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo3.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo4.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo5.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo6.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo7.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo8.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_textfield_activated_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_textfield_default_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_textfield_disabled_focused_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_textfield_disabled_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_textfield_focused_holo_light.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\round_button.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\down_arrow.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\clock.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_activity_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_loghours_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_profile_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_activity_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_loghours_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_profile_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_activity_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_loghours_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_profile_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_activity_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_profile_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_loghours_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\single_tab_indicator_background_selector.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\single_tab_indicator_text_selector.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\white_underline.9.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\edit_pencil_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\thumbs_up_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\edit_pencil_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\thumbs_up_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\edit_pencil_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\thumbs_up_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\grey_border_button.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_thumbs_up.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_thumbs_up.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_thumbs_up.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_thumbs_up.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\whiteborderstyle.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\down_arrow_white.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\camera_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\camera_icon_btn.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\logo_small2_cyan.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\redborderstyle.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\camera_icon_btn_sm.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\whitedashborderstyle.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\whiteopenborderstyle.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\rotate_left.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\rotate_right.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\rotate_right.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\rotate_left.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\rotate_right.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\rotate_left.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\rotate_right.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\login_wordmark_logo.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\play_button_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\play_button_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_create_new.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\shadow_bottom_border.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_top_logo.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_top_logo.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_top_logo.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_top_logo.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_play_button.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_play_button.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_play_button.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_play_button.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxxhdpi\ic_play_button.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_top_logo1.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_top_logo1.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_top_logo1.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_top_logo1.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\bold_plus.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_settings_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_settings_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_settings_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_settings_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values-w820dp\dimens.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxxhdpi\screen.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_support_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_support_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_support_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_support_icon.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\left_arrow.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\right_arrow.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\porp_logo.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\profile_header.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_activity_icon_new.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_activity_icon_new_selected.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_loghours_icon_new.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_loghours_icon_new_selected.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_profile_icon_new.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_profile_icon_new_selected.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_settings_icon_new.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_settings_icon_new_selected.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_support_icon_new.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_support_icon_new_selected.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\pencil_new.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_support_icon_new_selected.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_support_icon_new.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_settings_icon_new_selected.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_settings_icon_new.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_profile_icon_new_selected.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_profile_icon_new.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_loghours_icon_new_selected.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_loghours_icon_new.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_activity_icon_new_selected.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_activity_icon_new.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\logo_small2.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\logout1.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\iconporpoise.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\iconporpoise.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\iconporpoise.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\iconporpoise.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-ldpi\iconporpoise.png
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\R.cs.flag
+C:\Users\negre\Google Drive\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\uploadflags.txt
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.Droid.dll.config
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.Droid.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.Droid.pdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\com.porpoise.app.apk
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\com.porpoise.app-Signed.apk
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Acr.Settings.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Acr.Settings.Interface.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Autofac.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.CognitoIdentity.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.Core.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.S3.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.SecurityToken.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Bolts.AppLinks.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Bolts.Tasks.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Calligraphy.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\IntercomBinding_Droid.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Binding.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Binding.Droid.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Core.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Shared.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Support.V4.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Support.V7.AppCompat.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Support.V7.RecyclerView.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Localization.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Platform.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Platform.Droid.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.DownloadCache.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.DownloadCache.Droid.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.File.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.File.Droid.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.Json.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.Permissions.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.PictureChooser.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.PictureChooser.Droid.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.Visibility.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.Visibility.Droid.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PCLCrypto.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PCLStorage.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.CurrentActivity.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.Abstractions.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Refractored.FloatingActionButton.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Square.OkHttp.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Square.OkIO.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Square.Picasso.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\StickyHeader.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Syncfusion.SfChart.Android.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Syncfusion.SfGauge.Android.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\UniversalImageLoader.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Validation.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.v7.GridLayout.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.GooglePlayServices.Ads.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.GooglePlayServices.AppIndexing.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.GooglePlayServices.Base.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.Permissions.pdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.pdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.dll.config
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.CognitoIdentity.pdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.CognitoIdentity.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.CognitoIdentity.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.Core.pdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.Core.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.Core.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.S3.pdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.S3.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.S3.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.SecurityToken.pdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.SecurityToken.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\AWSSDK.SecurityToken.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Binding.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Support.V4.dll.config
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Support.V7.AppCompat.dll.config
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Droid.Support.V7.RecyclerView.dll.config
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Localization.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Platform.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.DownloadCache.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.File.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.PictureChooser.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.Visibility.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PCLCrypto.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PCLStorage.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.CurrentActivity.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.pdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.Abstractions.pdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.Abstractions.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Plugin.Permissions.Abstractions.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Refractored.FloatingActionButton.pdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Refractored.FloatingActionButton.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Refractored.FloatingActionButton.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Autofac.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\Validation.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\PorpoiseMobileApp.Droid.csprojResolveAssemblyReference.cache
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\PorpoiseMobileApp.Droid.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\PorpoiseMobileApp.Droid.pdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\bin\com.porpoise.app.apk
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\toolbar.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\organisations_spinner.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\drawer.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\menu_item.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\profile_header_angled_rectangle.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\activityview.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\single_tab_indicator.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\goal_spinneritem.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\organisation_spinneritem.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\goal_item.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\accountsettingsview.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\goal_details_dialog.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\createaccount.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\registration.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\loginview.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\supportview.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\welldoneorange.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\welldonegray.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\givenwelldones.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\profileselected.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\iconporpoise.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\profile_item.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\post_item.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\profileview.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\view_gallery_thumbnail.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\viewthumbnail.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\grid_item_layout.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_9.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_7.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_8.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_6.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_5.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_4.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_3.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_2.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\image_1.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\logpostphoto.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_0.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_1.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_2.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_3.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_4.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_5.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_6.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\sample_7.jpg
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\grid_example.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\cancel.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\cancel.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\header.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\header.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\challenges.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\firstview.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\mapsplash.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\color-v21\material_button_color.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_error_black_24dp.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_error_black_24dp.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_error_black_24dp.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_error_black_24dp.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxxhdpi\ic_error_black_24dp.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\arrow_z.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\loadview.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\loghoursview.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\homeview.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\layout\splashscreen.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\colors.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\strings.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land-hdpi\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land-ldpi\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land-mdpi\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land-xhdpi\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land-xxhdpi\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-land-xxxhdpi\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-ldpi\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\styles.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\spinner.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\porpoise_spinner.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\attrs.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\vpi__attrs.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\vpi__colors.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\vpi__defaults.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\vpi__styles.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values-v21\dimens.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values-v21\styles.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\square_button.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values\dimens.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_focused.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_selected.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_selected_pressed.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_unselected.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_unselected_focused.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_unselected_pressed.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\custom_tab_indicator_selected_focused.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_indicator.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_selected_focused_holo.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_selected_holo.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_selected_pressed_holo.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_unselected_focused_holo.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_unselected_holo.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\vpi__tab_unselected_pressed_holo.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\color\vpi__dark_theme.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\color\vpi__light_theme.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\transparent_square_button.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\edit_text_bottom_border.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\apptheme_edit_text_holo_light.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\apptheme_progress_horizontal_holo_light.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\apptheme_progress_indeterminate_horizontal_holo_light.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progress_bg_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progress_primary_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progress_secondary_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo1.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo2.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo3.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo4.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo5.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo6.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo7.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_progressbar_indeterminate_holo8.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_textfield_activated_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_textfield_default_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_textfield_disabled_focused_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_textfield_disabled_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\apptheme_textfield_focused_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progress_bg_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progress_primary_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progress_secondary_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo1.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo2.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo3.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo4.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo5.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo6.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo7.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_progressbar_indeterminate_holo8.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_textfield_activated_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_textfield_default_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_textfield_disabled_focused_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_textfield_disabled_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\apptheme_textfield_focused_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progress_bg_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progress_primary_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progress_secondary_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo1.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo2.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo3.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo4.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo5.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo6.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo7.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_progressbar_indeterminate_holo8.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_textfield_activated_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_textfield_default_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_textfield_disabled_focused_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_textfield_disabled_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\apptheme_textfield_focused_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progress_bg_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progress_primary_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progress_secondary_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo1.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo2.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo3.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo4.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo5.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo6.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo7.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_progressbar_indeterminate_holo8.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_textfield_activated_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_textfield_default_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_textfield_disabled_focused_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_textfield_disabled_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\apptheme_textfield_focused_holo_light.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\round_button.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\down_arrow.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\clock.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_activity_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_loghours_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_profile_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_activity_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_loghours_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_profile_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_activity_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_loghours_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_profile_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_activity_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_profile_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_loghours_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\single_tab_indicator_background_selector.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\single_tab_indicator_text_selector.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\white_underline.9.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\edit_pencil_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\thumbs_up_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\edit_pencil_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\thumbs_up_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\edit_pencil_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\thumbs_up_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\grey_border_button.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_thumbs_up.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_thumbs_up.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_thumbs_up.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_thumbs_up.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\whiteborderstyle.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\down_arrow_white.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\camera_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\camera_icon_btn.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\logo_small2_cyan.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\redborderstyle.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\camera_icon_btn_sm.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\whitedashborderstyle.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\whiteopenborderstyle.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\rotate_left.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\rotate_right.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\rotate_right.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\rotate_left.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\rotate_right.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\rotate_left.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\rotate_right.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\login_wordmark_logo.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\play_button_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\play_button_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_create_new.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\shadow_bottom_border.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_top_logo.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_top_logo.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_top_logo.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_top_logo.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_play_button.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_play_button.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_play_button.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_play_button.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxxhdpi\ic_play_button.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_top_logo1.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_top_logo1.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_top_logo1.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_top_logo1.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\bold_plus.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_settings_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_settings_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_settings_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_settings_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\values-w820dp\dimens.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxxhdpi\screen.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\ic_support_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\ic_support_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\ic_support_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\ic_support_icon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\left_arrow.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\right_arrow.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\porp_logo.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\profile_header.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_activity_icon_new.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_activity_icon_new_selected.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_loghours_icon_new.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_loghours_icon_new_selected.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_profile_icon_new.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_profile_icon_new_selected.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_settings_icon_new.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_settings_icon_new_selected.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_support_icon_new.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\tabs_support_icon_new_selected.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\pencil_new.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_support_icon_new_selected.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_support_icon_new.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_settings_icon_new_selected.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_settings_icon_new.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_profile_icon_new_selected.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_profile_icon_new.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_loghours_icon_new_selected.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_loghours_icon_new.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_activity_icon_new_selected.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\tabs_activity_icon_new.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\logo_small2.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\logout1.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-hdpi\iconporpoise.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xxhdpi\iconporpoise.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-xhdpi\iconporpoise.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-mdpi\iconporpoise.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable-ldpi\iconporpoise.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\logomapp.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\mybutton.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\res\drawable\mapicon.png
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\R.cs.flag
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\uploadflags.txt
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\MvvmCross.Plugins.Permissions.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\bin\Debug\PorpoiseMobileApp.Droid.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\AWSSDK.CognitoIdentity.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\AWSSDK.Core.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\AWSSDK.S3.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\AWSSDK.SecurityToken.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\MvvmCross.Binding.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\MvvmCross.Localization.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\MvvmCross.Platform.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\MvvmCross.Plugins.DownloadCache.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\MvvmCross.Plugins.File.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\MvvmCross.Plugins.Permissions.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\MvvmCross.Plugins.PictureChooser.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\MvvmCross.Plugins.Visibility.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\Plugin.Permissions.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\PorpoiseMobileApp.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\PorpoiseMobileApp.Droid.dll.mdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\PorpoiseMobileApp\PorpoiseMobileApp.Droid\obj\Debug\android\assets\Refractored.FloatingActionButton.dll.mdb

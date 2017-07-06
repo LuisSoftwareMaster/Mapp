@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.porpoise.app" android:installLocation="auto" android:versionName="1.1.6" android:versionCode="17">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="25" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+	<uses-permission android:name="android.permission.DELETE_PACKAGES" />
+	<uses-permission android:name="android.permission.RESTART_PACKAGES" />
+	<application android:label="@string/app_name" android:icon="@drawable/Icon" android:theme="@style/AppTheme" android:largeHeap="true" android:hardwareAccelerated="false">
+		<activity android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:label="@string/app_name" android:exported="true" android:name=".LoadingView">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:scheme="http" android:host="connect.giving.company" android:pathPrefix="/open_porpoise_app/" />
+				<data android:scheme="http" android:host="www.connect.giving.company" android:pathPrefix="/open_porpoise_app/" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>

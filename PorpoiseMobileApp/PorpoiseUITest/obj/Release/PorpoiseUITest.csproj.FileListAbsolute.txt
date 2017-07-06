@@ -1,0 +1,8 @@
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/bin/Release/PorpoiseUITest.dll
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/bin/Release/nunit.framework.dll
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/bin/Release/Xamarin.UITest.dll
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/bin/Release/nunit.framework.xml
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/bin/Release/Xamarin.UITest.xml
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/obj/Release/PorpoiseUITest.csprojResolveAssemblyReference.cache
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/obj/Release/PorpoiseUITest.csproj.CoreCompileInputs.cache
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUITest/obj/Release/PorpoiseUITest.dll

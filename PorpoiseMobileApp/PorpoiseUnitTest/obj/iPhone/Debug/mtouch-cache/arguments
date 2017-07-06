@@ -1,0 +1,39 @@
+# Version: 10.10.0.33 (d15-2: 3e5ac5ff)
+# [first argument, ignore] # --cache
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/lib/mtouch/mtouch.exe \
+	/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/obj/iPhone/Debug/mtouch-cache \
+	--dev \
+	/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/bin/iPhone/Debug/PorpoiseUnitTest.app \
+	--executable \
+	PorpoiseUnitTest \
+	--fastdev \
+	--debug \
+	--profiling \
+	--linksdkonly \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	10.3 \
+	--targetver \
+	10.3 \
+	--aot-options=-O=float32 \
+	--http-message-handler=HttpClientHandler \
+	"--abi=armv7,arm64" \
+	--symbollist \
+	/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/obj/iPhone/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/MonoTouch.NUnitLite.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/bin/iPhone/Debug/PorpoiseUnitTest.exe \

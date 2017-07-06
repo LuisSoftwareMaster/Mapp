@@ -1,0 +1,16 @@
+--- PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/Views/LogHoursView.cs	
++++ PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.Droid/Views/LogHoursView.cs	
+@@ -23,13 +23,12 @@
+ using System.Collections.Generic;
+ using System.Linq;
+ using PorpoiseMobileApp.Droid.Converters;
+ using static Android.Widget.AdapterView;
+ using Android.Util;
+ using MvvmCross.Core.ViewModels;
+-using UniversalImageLoader.Core;
+ 
+ namespace PorpoiseMobileApp.Droid.Views
+ {
+     [MenuItem(MenuItem.LogHours)]
+     public class LogHoursView : MvvmFragment<LogHoursViewModel>
+     {

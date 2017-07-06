@@ -1,0 +1,41 @@
+--- PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.iOS/Converters/DateToNSDateConverter.cs	
++++ PorpoiseMobileApp/PorpoiseMobileApp/PorpoiseMobileApp.iOS/Converters/DateToNSDateConverter.cs	
+@@ -5,21 +5,29 @@
+ 
+ namespace PorpoiseMobileApp.iOS
+ {
+-	public class DateToNSDateConverter : MvxValueConverter<NSDate, DateTime>
++	public class DateToNSDateConverter : MvxValueConverter<DateTime, NSDate>
+ 	{
+-		public DateToNSDateConverter()
++		public DateToNSDateConverter ()
+ 		{
+-
+ 		}
+-		protected override DateTime Convert(NSDate date, Type targetType, object parameter, CultureInfo culture)
+-		{
+-			return (new DateTime(2001, 1, 1, 0, 0, 0)).AddSeconds(date.SecondsSinceReferenceDate);
++
++		//date to nsdate
++		public object Convert(object value, Type targetType, object parameter, CultureInfo culture){
++
++			if (((DateTime)value).Kind == DateTimeKind.Unspecified){
++				value = DateTime.SpecifyKind ((DateTime)value, DateTimeKind.Local);
++
++				}
++			return (NSDate)value;
+ 		}
+-		protected override NSDate ConvertBack(DateTime date, Type targetType, object parameter, CultureInfo culture)
+-		{
+-			return NSDate.FromTimeIntervalSinceReferenceDate((date - (new DateTime(2001, 1, 1, 0, 0, 0))).TotalSeconds);
++
++		//nsdate to date
++		public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture){
++		
++			return (DateTime)value;
+ 		}
+ 
++
+ 	}
+ }
+ 

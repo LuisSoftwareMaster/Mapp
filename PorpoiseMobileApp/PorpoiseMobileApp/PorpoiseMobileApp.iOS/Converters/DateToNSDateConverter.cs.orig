@@ -1,0 +1,40 @@
+﻿using System;
+using MvvmCross.Platform.Converters;
+using System.Globalization;
+using Foundation;
+
+namespace PorpoiseMobileApp.iOS
+{
+
+	//public class DateToNSDateConverter : MvxValueConverter<DateTime, NSDate>
+	//{
+	//	protected override NSDate Convert(DateTime value, Type targetType, object parameter, CultureInfo culture)
+	//	{
+	//		return NSDate.FromTimeIntervalSinceReferenceDate((value - (new DateTime(2001, 1, 1, 0, 0, 0))).TotalSeconds);
+	//	}
+
+	//	protected override DateTime ConvertBack(NSDate value, Type targetType, object parameter, CultureInfo culture)
+	//	{
+	//		return (new DateTime(2001, 1, 1, 0, 0, 0)).AddSeconds(value.SecondsSinceReferenceDate);
+	//	}
+	//}
+
+	public class DateToNSDateConverter : IMvxValueConverter
+	{
+		public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+		{
+			var returnObj = NSDate.FromTimeIntervalSinceReferenceDate((((DateTime)value) - (new DateTime(2001, 1, 1, 0, 0, 0))).TotalSeconds);
+
+			//TODO: maybe need to parse this or something?  "problem seen during binding execution for binding Date to Date
+			return returnObj;
+		}
+
+		public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+		{
+			var returnObj = (new DateTime(2001, 1, 1, 0, 0, 0)).AddSeconds(((NSDate)value).SecondsSinceReferenceDate);
+			return returnObj;
+		}
+
+	}
+}
+

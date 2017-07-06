@@ -1,0 +1,26 @@
+objc[12797]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x11a0ddca8) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/AVConference.framework/AVConference (0x11a00fcd0). One of the two will be used. Which one is undefined.
+objc[12797]: Class PLBuildVersion is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x11c29acc0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x11bc4a6f0). One of the two will be used. Which one is undefined.
+2017-05-07 18:29:24.345 PorpoiseUnitTest[12797:656651] Xamarin.iOS: Socket error while connecting to IDE on 127.0.0.1:18728: Connection refused
+2017-05-07 18:32:14.303 PorpoiseUnitTest[12797:656454] [Runner executing:	Run Everything]
+2017-05-07 18:32:14.304 PorpoiseUnitTest[12797:656454] [MonoTouch Version:	10.10.0]
+2017-05-07 18:32:14.304 PorpoiseUnitTest[12797:656454] [Assembly:	Xamarin.iOS.dll (64 bits)]
+2017-05-07 18:32:14.305 PorpoiseUnitTest[12797:656454] [GC:	sgen]
+2017-05-07 18:32:14.306 PorpoiseUnitTest[12797:656454] [iPhone:	iOS v10.3]
+2017-05-07 18:32:14.313 PorpoiseUnitTest[12797:656454] [Device Name:	Luis’s MacBook Pro]
+2017-05-07 18:32:14.314 PorpoiseUnitTest[12797:656454] [Device UDID:	unknown]
+2017-05-07 18:32:14.325 PorpoiseUnitTest[12797:656454] [Device Locale:	en_US]
+2017-05-07 18:32:14.341 PorpoiseUnitTest[12797:656454] [Device Date/Time:	5/7/2017 6:32:14 PM]
+2017-05-07 18:32:14.345 PorpoiseUnitTest[12797:656454] [Bundle:	com.companyname.porpoiseunittest]
+2017-05-07 18:32:14.353 PorpoiseUnitTest[12797:656454] 
+2017-05-07 18:32:14.360 PorpoiseUnitTest[12797:656454] PorpoiseUnitTest.exe
+2017-05-07 18:32:14.361 PorpoiseUnitTest[12797:656454] Tests
+2017-05-07 18:32:14.390 PorpoiseUnitTest[12797:656454] 	[FAIL] Tests.Fail :   Expected: False
+  But was:  True
+2017-05-07 18:32:14.391 PorpoiseUnitTest[12797:656454] 		  at Fixtures.Tests.Fail () [0x00001] in /Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/Fixtures/Tests.cs:21 
+2017-05-07 18:32:14.391 PorpoiseUnitTest[12797:656454] 		  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
+2017-05-07 18:32:14.392 PorpoiseUnitTest[12797:656454] 		  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in /Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.11/src/mono/mcs/class/corlib/System.Reflection/MonoMethod.cs:305 
+2017-05-07 18:32:14.402 PorpoiseUnitTest[12797:656454] 	[IGNORED] Tests.Ignore : another time
+2017-05-07 18:32:14.403 PorpoiseUnitTest[12797:656454] 	[PASS] Tests.Pass
+2017-05-07 18:32:14.407 PorpoiseUnitTest[12797:656454] Tests : 45 ms
+2017-05-07 18:32:14.408 PorpoiseUnitTest[12797:656454] PorpoiseUnitTest.exe : 47 ms
+2017-05-07 18:32:14.417 PorpoiseUnitTest[12797:656454] Tests run: 2 Passed: 1 Inconclusive: 0 Failed: 1 Ignored: 1

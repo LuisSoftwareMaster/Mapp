@@ -1,0 +1,626 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{36E292AD-82F4-460F-8E7D-BB4B761EF934}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PorpoiseMobileApp.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>PorpoiseMobileAppiOS</AssemblyName>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchProfiling>false</MtouchProfiling>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchLink>None</MtouchLink>
+    <CodesignEntitlements>entitlements.plist</CodesignEntitlements>
+    <MtouchExtraArgs>
+    </MtouchExtraArgs>
+    <MtouchSdkVersion>10.3</MtouchSdkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignProvision>
+    </CodesignProvision>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchProfiling>true</MtouchProfiling>
+    <DeviceSpecificBuild>false</DeviceSpecificBuild>
+    <MtouchUseLlvm>true</MtouchUseLlvm>
+    <MtouchUseThumb>true</MtouchUseThumb>
+    <MtouchLink>SdkOnly</MtouchLink>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>i386</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchUseLlvm>true</MtouchUseLlvm>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>entitlements.plist</CodesignEntitlements>
+    <MtouchProfiling>false</MtouchProfiling>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignProvision>
+    </CodesignProvision>
+    <OptimizePNGs>false</OptimizePNGs>
+    <BuildIpa>true</BuildIpa>
+    <IpaMetadata>Entitlements.plist</IpaMetadata>
+    <MtouchFastDev>false</MtouchFastDev>
+    <MtouchLink>None</MtouchLink>
+    <MtouchSdkVersion>10.3</MtouchSdkVersion>
+    <MtouchExtraArgs>-v -v -v</MtouchExtraArgs>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AWSSDK.CognitoIdentity, Version=3.1.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\AWSSDK.CognitoIdentity.3.1.1.3\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid10+xamarinios10+MonoTouch10\AWSSDK.CognitoIdentity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AWSSDK.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\AWSSDK.Core.3.1.10.0\lib\Xamarin.iOS10\AWSSDK.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AWSSDK.S3, Version=3.1.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\AWSSDK.S3.3.1.9.0\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid10+xamarinios10+MonoTouch10\AWSSDK.S3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AWSSDK.SecurityToken, Version=3.1.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\AWSSDK.SecurityToken.3.1.4.5\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid10+xamarinios10+MonoTouch10\AWSSDK.SecurityToken.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IntercomBinding_iOS, Version=1.0.6222.17208, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\IntercomSDK.iOS.3.0.22\lib\xamarinios10\IntercomBinding_iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Binding, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Binding.4.2.3\lib\Xamarin.iOS10\MvvmCross.Binding.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Binding.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Binding.4.2.3\lib\Xamarin.iOS10\MvvmCross.Binding.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Core, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Core.4.2.3\lib\Xamarin.iOS10\MvvmCross.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Core.4.2.3\lib\Xamarin.iOS10\MvvmCross.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Localization, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Binding.4.2.3\lib\Xamarin.iOS10\MvvmCross.Localization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Platform, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Platform.4.2.3\lib\Xamarin.iOS10\MvvmCross.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Platform.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Platform.4.2.3\lib\Xamarin.iOS10\MvvmCross.Platform.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.DownloadCache, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Plugin.DownloadCache.4.2.3\lib\Xamarin.iOS10\MvvmCross.Plugins.DownloadCache.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.DownloadCache.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Plugin.DownloadCache.4.2.3\lib\Xamarin.iOS10\MvvmCross.Plugins.DownloadCache.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.File, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Plugin.File.4.2.3\lib\Xamarin.iOS10\MvvmCross.Plugins.File.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.File.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Plugin.File.4.2.3\lib\Xamarin.iOS10\MvvmCross.Plugins.File.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.Json, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Plugin.Json.4.2.3\lib\Xamarin.iOS10\MvvmCross.Plugins.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.PictureChooser, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Plugin.PictureChooser.4.2.3\lib\Xamarin.iOS10\MvvmCross.Plugins.PictureChooser.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.PictureChooser.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Plugin.PictureChooser.4.2.3\lib\Xamarin.iOS10\MvvmCross.Plugins.PictureChooser.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.Visibility, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Plugin.Visibility.4.2.3\lib\Xamarin.iOS10\MvvmCross.Plugins.Visibility.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.Visibility.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Plugin.Visibility.4.2.3\lib\Xamarin.iOS10\MvvmCross.Plugins.Visibility.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Permissions, Version=1.1.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Plugin.Permissions.1.1.7\lib\Xamarin.iOS10\Plugin.Permissions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Permissions.Abstractions, Version=1.1.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Plugin.Permissions.1.1.7\lib\Xamarin.iOS10\Plugin.Permissions.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.SfChart.iOS, Version=14.2451.0.28, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Syncfusion.Xamarin.SfChart.IOS.14.2.0.28\lib\Xamarin.iOS10\Syncfusion.SfChart.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Collections.Immutable.1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da">
+      <HintPath>..\..\packages\Autofac.3.5.2\lib\portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoTouch.Dialog-1" />
+    <Reference Include="System.Json" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Acr.Settings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\Acr.Settings.5.1.1\lib\Xamarin.iOS10\Acr.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Acr.Settings.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\Acr.Settings.5.1.1\lib\Xamarin.iOS10\Acr.Settings.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\Xamarin.iOS10\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\Xamarin.iOS10\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage">
+      <HintPath>..\..\packages\PCLStorage.1.0.2\lib\portable-Xamarin.iOS+Xamarin.Mac\PCLStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage.Abstractions">
+      <HintPath>..\..\packages\PCLStorage.1.0.2\lib\portable-Xamarin.iOS+Xamarin.Mac\PCLStorage.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Validation">
+      <HintPath>..\..\packages\Validation.2.0.6.15003\lib\portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10\Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLCrypto">
+      <HintPath>..\..\packages\PCLCrypto.1.0.2.15130\lib\Xamarin.iOS\PCLCrypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGauge.iOS">
+      <HintPath>..\..\packages\Syncfusion.Xamarin.SfGauge.IOS.14.2.0.28\lib\Xamarin.iOS10\Syncfusion.SfGauge.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Calabash">
+      <HintPath>..\..\packages\Xamarin.TestCloud.Agent.0.20.3\lib\Xamarin.iOS10\Calabash.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="EmptyPostItemCellController.xib" />
+    <InterfaceDefinition Include="CompanyPostItemCellController.xib" />
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="PostItemCellController.xib" />
+    <InterfaceDefinition Include="OrganizationSearchItem.xib" />
+    <InterfaceDefinition Include="NoPhotoPost.xib" />
+    <InterfaceDefinition Include="ReportPostAlertView.xib" />
+    <InterfaceDefinition Include="ReportCompletedViewController.xib" />
+    <InterfaceDefinition Include="ReportUserViewController.xib" />
+    <InterfaceDefinition Include="ReportOtherReasonViewController.xib" />
+    <InterfaceDefinition Include="TermConditions.xib" />
+    <InterfaceDefinition Include="TransitionViewController.xib" />
+    <InterfaceDefinition Include="GaugeViewController.xib" />
+    <InterfaceDefinition Include="UzysAssetsPickerController.xib" />
+    <InterfaceDefinition Include="AddCoworkerViewController.xib" />
+    <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="LoginTutorialFirst.xib" />
+    <InterfaceDefinition Include="SecondLoginTutorial.xib" />
+    <InterfaceDefinition Include="PostingTutorialFirst.xib" />
+    <InterfaceDefinition Include="PostingTutorialSecond.xib" />
+    <InterfaceDefinition Include="PostingTutorialThird.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Info.plist" />
+    <None Include="packages.config" />
+    <None Include="Converters\DateToNSDateConverter.cs.orig" />
+    <None Include="Converters\DateToNSDateConverter.cs.rej" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bindings\MvxActivityIndicatorHiddenTargetBinding.cs" />
+    <Compile Include="Bindings\MvxSegmentedControlSelectedSegmentTargetBinding.cs" />
+    <Compile Include="Bootstrap\DownloadCachePluginBootstrap.cs" />
+    <Compile Include="Bootstrap\FilePluginBootstrap.cs" />
+    <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\PictureChooserPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\VisibilityPluginBootstrap.cs" />
+    <Compile Include="DebugTrace.cs" />
+    <Compile Include="LinkerPleaseInclude.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Custom\PorpoiseView.cs" />
+    <Compile Include="Custom\PorpoiseView.designer.cs">
+      <DependentUpon>PorpoiseView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\PorpoiseTextView.cs" />
+    <Compile Include="Custom\PorpoiseTextView.designer.cs">
+      <DependentUpon>PorpoiseTextView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Services\ConsoleLogger.cs" />
+    <Compile Include="Services\EncryptionService.cs" />
+    <Compile Include="Setup.cs" />
+    <Compile Include="Startup\AppDomainWrapper.cs" />
+    <Compile Include="Startup\iOSRegistry.cs" />
+    <Compile Include="LoginViewController.cs" />
+    <Compile Include="LoginViewController.designer.cs">
+      <DependentUpon>LoginViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MvvmViewController.cs" />
+    <Compile Include="LoadingViewController.cs" />
+    <Compile Include="LoadingViewController.designer.cs">
+      <DependentUpon>LoadingViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\KeyboardManager.cs" />
+    <Compile Include="HomeViewController.cs" />
+    <Compile Include="ProfileViewController.cs" />
+    <Compile Include="ProfileViewController.designer.cs">
+      <DependentUpon>ProfileViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewController.designer.cs">
+      <DependentUpon>HomeViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\DateToNSDateConverter.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Interfaces\IDisplayHint.cs" />
+    <Compile Include="Helpers\Extensions.cs" />
+    <Compile Include="Custom\PorpoiseButton.cs" />
+    <Compile Include="Custom\PorpoiseButton.designer.cs">
+      <DependentUpon>PorpoiseButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\PorpoiseColors.cs" />
+    <Compile Include="Custom\PorpoiseEditText.cs" />
+    <Compile Include="Custom\PorpoiseEditText.designer.cs">
+      <DependentUpon>PorpoiseEditText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\PorpoiseTabNavigationController.cs" />
+    <Compile Include="Bindings\PorpoiseTextEditTargetBinding.cs" />
+    <Compile Include="Helpers\CameraHelper.cs" />
+    <Compile Include="PostItemCellController.cs" />
+    <Compile Include="PostItemCellController.designer.cs">
+      <DependentUpon>PostItemCellController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\UriToImageConverter.cs" />
+    <Compile Include="EmptyPostItemCellController.cs" />
+    <Compile Include="EmptyPostItemCellController.designer.cs">
+      <DependentUpon>EmptyPostItemCellController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\AttributedPostDetailsConverter.cs" />
+    <Compile Include="Custom\LoadingOverlay.cs" />
+    <Compile Include="Converters\EditPostButtonHiddenConverter.cs" />
+    <Compile Include="CompanyPostItemCellController.cs" />
+    <Compile Include="CompanyPostItemCellController.designer.cs">
+      <DependentUpon>CompanyPostItemCellController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Services\DummyImageRotator.cs" />
+    <Compile Include="AccountSettingsViewController.cs" />
+    <Compile Include="AccountSettingsViewController.designer.cs">
+      <DependentUpon>AccountSettingsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UploadImageContainer.cs" />
+    <Compile Include="UploadImageContainer.designer.cs">
+      <DependentUpon>UploadImageContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupportViewController.cs" />
+    <Compile Include="SupportViewController.designer.cs">
+      <DependentUpon>SupportViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomGoalScrollView.cs" />
+    <Compile Include="CustomGoalScrollView.designer.cs">
+      <DependentUpon>CustomGoalScrollView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoalTapDelegate.cs" />
+    <Compile Include="Converters\GivenWelldoneImageConverter.cs" />
+    <Compile Include="Converters\GivenWelldoneOrangeImageConverter.cs" />
+    <Compile Include="Converters\GivenWelldonesTextValueConverter.cs" />
+    <Compile Include="Converters\GiveWelldoneHiddenConverter.cs" />
+    <Compile Include="Custom\WelldoneButton.cs" />
+    <Compile Include="Converters\GivenWelldoneTestHidden.cs" />
+    <Compile Include="Converters\GivenWelldoneTextHidden.cs" />
+    <Compile Include="Converters\ProfileImageConverter.cs" />
+    <Compile Include="Converters\CompanyNameLocationConverter.cs" />
+    <Compile Include="Converters\WelldoneConstraintValue.cs" />
+    <Compile Include="Converters\HighlightLineConstraintConverter.cs" />
+    <Compile Include="LogHourPhotoViewController.cs" />
+    <Compile Include="LogHourPhotoViewController.designer.cs">
+      <DependentUpon>LogHourPhotoViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogPostOrganizationViewController.cs" />
+    <Compile Include="LogPostOrganizationViewController.designer.cs">
+      <DependentUpon>LogPostOrganizationViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChallengeLogHourViewController.cs" />
+    <Compile Include="ChallengeLogHourViewController.designer.cs">
+      <DependentUpon>ChallengeLogHourViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizationSearchItem.cs" />
+    <Compile Include="OrganizationSearchItem.designer.cs">
+      <DependentUpon>OrganizationSearchItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\PorpoiseTextViewDelegate.cs" />
+    <Compile Include="Custom\PorpoiseLabel.cs" />
+    <Compile Include="Custom\PorpoiseLabel.designer.cs">
+      <DependentUpon>PorpoiseLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\PorpoiseImagePicker.cs" />
+    <Compile Include="Converters\NoPhotoPostBackgroundColorConverter.cs" />
+    <Compile Include="Converters\NoPostViewSizeCconverter.cs" />
+    <Compile Include="Converters\PostColorImageConverter.cs" />
+    <Compile Include="MoreNavigationDelegate.cs" />
+    <Compile Include="NoPhotoPost.cs" />
+    <Compile Include="NoPhotoPost.designer.cs">
+      <DependentUpon>NoPhotoPost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RequestAccountViewController.designer.cs">
+      <DependentUpon>RequestAccountViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmationViewController.cs" />
+    <Compile Include="ConfirmationViewController.designer.cs">
+      <DependentUpon>ConfirmationViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\GivenWelldoneTextHiddenConverter.cs" />
+    <Compile Include="Services\PorpoiseImage.cs" />
+    <Compile Include="ReportPostAlertViewController.cs" />
+    <Compile Include="ReportPostAlertViewController.designer.cs">
+      <DependentUpon>ReportPostAlertViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportPostAlertView.cs" />
+    <Compile Include="ReportPostAlertView.designer.cs">
+      <DependentUpon>ReportPostAlertView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompletedViewController.cs" />
+    <Compile Include="ReportCompletedViewController.designer.cs">
+      <DependentUpon>ReportCompletedViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportUserViewController.cs" />
+    <Compile Include="ReportUserViewController.designer.cs">
+      <DependentUpon>ReportUserViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportOtherReasonViewController.cs" />
+    <Compile Include="ReportOtherReasonViewController.designer.cs">
+      <DependentUpon>ReportOtherReasonViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TermConditions.cs" />
+    <Compile Include="TermConditions.designer.cs">
+      <DependentUpon>TermConditions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\DotsButtonHiddenConverter.cs" />
+    <Compile Include="Custom\PorpoiseTextField.cs" />
+    <Compile Include="Custom\PorpoiseFormattedString.cs" />
+    <Compile Include="TransitionViewController.cs" />
+    <Compile Include="TransitionViewController.designer.cs">
+      <DependentUpon>TransitionViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GaugeViewController.cs" />
+    <Compile Include="GaugeViewController.designer.cs">
+      <DependentUpon>GaugeViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PorpoiseDescriptionTextView.cs" />
+    <Compile Include="PorpoiseDescriptionTextView.designer.cs">
+      <DependentUpon>PorpoiseDescriptionTextView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\RangePointerConverter.cs" />
+    <Compile Include="Custom\PorpoiseImage.cs" />
+    <Compile Include="Custom\PorpoiseTableDelegate.cs" />
+    <Compile Include="PorpoiseTableView.cs" />
+    <Compile Include="PorpoiseTableView.designer.cs">
+      <DependentUpon>PorpoiseTableView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkerSafeAttribute.cs" />
+    <Compile Include="ActivityViewController.cs" />
+    <Compile Include="ActivityViewController.designer.cs">
+      <DependentUpon>ActivityViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RequestAccountViewController.cs" />
+    <Compile Include="ConfirmationCodeViewController.cs" />
+    <Compile Include="ConfirmationCodeViewController.designer.cs">
+      <DependentUpon>ConfirmationCodeViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordConfirmationViewController.cs" />
+    <Compile Include="PasswordConfirmationViewController.designer.cs">
+      <DependentUpon>PasswordConfirmationViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCoworkerViewController.cs" />
+    <Compile Include="AddCoworkerViewController.designer.cs">
+      <DependentUpon>AddCoworkerViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InviteCoworkerViewController.cs" />
+    <Compile Include="InviteCoworkerViewController.designer.cs">
+      <DependentUpon>InviteCoworkerViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvitationConfirmationViewController.cs" />
+    <Compile Include="InvitationConfirmationViewController.designer.cs">
+      <DependentUpon>InvitationConfirmationViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginTutorialFirst.cs" />
+    <Compile Include="LoginTutorialFirst.designer.cs">
+      <DependentUpon>LoginTutorialFirst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecondLoginTutorial.cs" />
+    <Compile Include="SecondLoginTutorial.designer.cs">
+      <DependentUpon>SecondLoginTutorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PostingTutorialFirst.cs" />
+    <Compile Include="PostingTutorialFirst.designer.cs">
+      <DependentUpon>PostingTutorialFirst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PostingTutorialSecond.cs" />
+    <Compile Include="PostingTutorialSecond.designer.cs">
+      <DependentUpon>PostingTutorialSecond.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PostingTutorialThird.cs" />
+    <Compile Include="PostingTutorialThird.designer.cs">
+      <DependentUpon>PostingTutorialThird.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <BundleResource Include="Resources\Logo_outline2.png" />
+    <BundleResource Include="Resources\porpoise_background.png" />
+    <BundleResource Include="Resources\Logo_outline.png" />
+    <BundleResource Include="Resources\AvenirLT-BlackOblique.ttf" />
+    <BundleResource Include="Resources\AvenirLT-Book.ttf" />
+    <BundleResource Include="Resources\AvenirLT-BookOblique.ttf" />
+    <BundleResource Include="Resources\AvenirLT-Heavy.ttf" />
+    <BundleResource Include="Resources\AvenirLT-HeavyOblique.ttf" />
+    <BundleResource Include="Resources\AvenirLT-Light.ttf" />
+    <BundleResource Include="Resources\AvenirLT-LightOblique.ttf" />
+    <BundleResource Include="Resources\AvenirLT-Medium.ttf" />
+    <BundleResource Include="Resources\AvenirLT-MediumOblique.ttf" />
+    <BundleResource Include="Resources\AvenirLT-Oblique.ttf" />
+    <BundleResource Include="Resources\AvenirLT-Roman.ttf" />
+    <BundleResource Include="Resources\Ubuntu-Bold.ttf" />
+    <BundleResource Include="Resources\Ubuntu-BoldItalic.ttf" />
+    <BundleResource Include="Resources\Ubuntu-Italic.ttf" />
+    <BundleResource Include="Resources\Ubuntu-Light.ttf" />
+    <BundleResource Include="Resources\Ubuntu-LightItalic.ttf" />
+    <BundleResource Include="Resources\Ubuntu-Medium.ttf" />
+    <BundleResource Include="Resources\Ubuntu-MediumItalic.ttf" />
+    <BundleResource Include="Resources\Ubuntu.ttf" />
+    <BundleResource Include="Next.png" />
+    <BundleResource Include="Resources\logo.png" />
+    <BundleResource Include="Resources\logo%402x.png" />
+    <BundleResource Include="Resources\museo-500-webfont.ttf" />
+    <BundleResource Include="Resources\activityIcon.png" />
+    <BundleResource Include="Resources\activityIcon%402x.png" />
+    <BundleResource Include="Resources\iconProfile.png" />
+    <BundleResource Include="Resources\iconProfile%402x.png" />
+    <BundleResource Include="Resources\intercom.png" />
+    <BundleResource Include="Resources\intercom%402x.png" />
+    <BundleResource Include="Resources\plusIcon.png" />
+    <BundleResource Include="Resources\plusIcon%402x.png" />
+    <BundleResource Include="Resources\settings.png" />
+    <BundleResource Include="Resources\settings%402x.png" />
+    <BundleResource Include="Resources\Loading Page.png" />
+    <BundleResource Include="Resources\splash.png" />
+    <BundleResource Include="Resources\posting tuto 3 pop-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\..\packages\AWSSDK.CognitoIdentity.3.1.1.3\analyzers\dotnet\cs\AWSSDK.CognitoIdentity.CodeAnalysis.dll" />
+    <Analyzer Include="..\..\packages\AWSSDK.S3.3.1.9.0\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
+    <Analyzer Include="..\..\packages\AWSSDK.SecurityToken.3.1.4.5\analyzers\dotnet\cs\AWSSDK.SecurityToken.CodeAnalysis.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\porpoise_icon72x72.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\porpoise_icon144x144.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\porpoise_icon76x76.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\porpoise_icon152x152.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\porpoise_icon167x167.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\artwork-source114.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\porpoise_icon58x58.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\1xIcon.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\2xIcon.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\iPhone72xIcon.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\iPhone73xIcon.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="PostingTutorialSecond.xcassets\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppDelegate.cs.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PorpoiseMobileApp\PorpoiseMobileApp.Core.csproj">
+      <Project>{EA7ED64D-3FE0-4CB4-B3FD-EA5E1C0367D1}</Project>
+      <Name>PorpoiseMobileApp.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UzysAssetsPickerControllerBinding\UzysAssetsPickerControllerBinding\UzysAssetsPickerControllerBinding.csproj">
+      <Project>{3CB9024B-C77F-4B1D-9E32-C0E9ECFDCD4A}</Project>
+      <Name>UzysAssetsPickerControllerBinding</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+</Project>

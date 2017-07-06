@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="10dp"
+    android:paddingLeft="40dp"
+              android:paddingRight="40dp"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp">
+    <TextView
+        android:id="@+id/dialog_goal_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:text="goal name"
+        android:textAllCaps="true"
+        android:textColor="@color/porpoise_turquoise" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/goal_description_container">
+        <TextView
+            android:id="@+id/dialog_goal_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="this is the description"
+            android:textColor="@color/porpoise_turquoise" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/dialog_label_goal_hours_invested"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress:"
+            android:textSize="14sp"
+            android:textColor="@color/dark_grey" />
+        <TextView
+            android:id="@+id/dialog_goal_hours_invested"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="3 of 4 hours"
+            android:textColor="@color/porpoise_turquoise"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/dialog_label_goal_reward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Reward:"
+            android:textColor="@color/dark_grey" />
+        <TextView
+            android:id="@+id/dialog_goal_reward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="this is a reward"
+            android:textColor="@color/porpoise_turquoise"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+</LinearLayout>

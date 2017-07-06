@@ -1,0 +1,403 @@
+using System;
+using Foundation;
+using UIKit;
+using PorpoiseMobileApp.ViewModels;
+using PorpoiseMobileApp.Models;
+using PorpoiseMobileApp.Converters;
+using Syncfusion.SfGauge.iOS;
+using CoreGraphics;
+using System.Linq;
+using System.Diagnostics;
+
+namespace PorpoiseMobileApp.iOS
+{
+
+	public partial class ProfileViewController : MvvmViewController<ProfileViewModel>
+	{
+		UIGestureRecognizer goalTap;
+		public ProfileViewController(IntPtr handle) : base(handle)
+		{
+
+		}
+
+		public override void ViewWillDisappear(bool animated)
+		{
+			base.ViewWillDisappear(animated);
+			gaugeCount = 0;
+			goalTap = null;
+			currentFrame = null;
+
+			/*foreach (var sv in GoalsScrollView.Subviews)
+			{
+				sv.RemoveFromSuperview();
+			}*/
+		}
+
+
+		public override void ViewWillAppear(bool animated)
+		{
+			base.ViewWillAppear(animated);
+			InvokeOnMainThread(() =>
+			{
+				ViewModel.LoadDetails();
+			});
+
+			LatestPostTableView.Hidden = true;
+			//RightArrow.Hidden = true;
+			//LeftArrow.Hidden = true;
+
+		}
+
+		public override void ViewDidAppear(bool animated)
+		{
+			base.ViewDidAppear(animated);
+			LatestPostTableView.Hidden = false;
+			//GoalsScrollViewSize = new CGSize(GoalsScrollView.Frame.Width, this.GoalsScrollView.Frame.Height);
+
+			if (this.TabBarController.SelectedIndex == 4)
+			{
+
+				ViewModel.InFlight = true;
+
+				Debug.WriteLine("Presenting Intercom");
+
+				this.TabBarController.SelectedIndex = 0;
+
+				IntercomiOS.Intercom.PresentMessenger();
+
+				ViewModel.InFlight = false;
+
+			}
+
+		}
+
+		partial void ChartViewRecognizer(Foundation.NSObject sender)
+		{
+			UIView view = sender as UIView;
+		}
+
+		public override void ViewDidLoad()
+		{
+			base.ViewDidLoad();
+			NavigationBarSetUp();
+			StyleElements();
+			View.BringSubviewToFront(Overlay);
+			Bindings.Bind(Overlay).For(x => x.Hidden).To(x => x.InFlight).WithConversion(new InverseConverter());
+			Bindings.Bind(EmployeeName).For(x => x.Text).To(x => x.Name);
+			Bindings.Bind(Location).For(x => x.Text).To(x => x.Location);
+			Bindings.Bind(ProfilePicture).For(x => x.Image).To(x => x.ProfilePicture).WithConversion(new UriToImageConverter());
+			//Bindings.Bind(lblHourAmount).For(x => x.Text).To(x => x.TotalHoursGiven).WithConversion(new DoubleToStringConverter());
+			//lblHourAmount.TextAlignment = UITextAlignment.Center;
+			Bindings.Apply();
+
+			ViewModel.GoEditLogEvent += (sender, e) =>
+			{
+				if (!Equals(e.PostId, Guid.Empty))
+				{
+					ViewModel.LatestPost.Id = e.PostId;
+				}
+			};
+
+
+			ViewModel.GetEmployeeDetailsEvent += (s, e) =>
+				{
+					SetUpGoalCharts(e);
+				};
+			ViewModel.ForPropertyChange(x => x.LatestLogPostList, y =>
+					{
+						setupLatestPostSource();
+					});
+
+		}
+
+		//UIView ChartView;
+
+		void SetUpGoalCharts(SdkEventArgs e)
+		{
+			if (e.Successful)
+			{
+
+				InvokeOnMainThread(() =>
+						{
+							if (this.ViewModel.CompanyGoals != null && this.ViewModel.CompanyGoals.Count > 0)
+							{
+
+								var selectedGoals = this.ViewModel.CompanyGoals.Distinct().Where(x => x.Id != null && x.Hours > 0).ToList();
+								var chartWidth = 311 / 2;
+								var chartHeight = 180;
+								var ChartView = new UIView(new CGRect(0, 0, 311 / 2 * selectedGoals.Count, 180));
+								//var yConstraint = NSLayoutConstraint.Create(ChartView, NSLayoutAttribute.CenterY, NSLayoutRelation.Equal);
+								//yConstraint.Active = true;
+								//ChartView.TranslatesAutoresizingMaskIntoConstraints = false;
+								//ChartView.AddConstraint(yConstraint);
+
+								foreach (var g in selectedGoals)
+								{
+									if (selectedGoals.Count != gaugeCount)
+									{
+										goalTap = new UITapGestureRecognizer();
+										goalTap.CancelsTouchesInView = false;
+
+										var goalDetailsAlert = BuildGoalDetailsAlert(g);
+										goalTap.Delegate = new GoalTapDelegate(() => this.PresentViewController(goalDetailsAlert, true, null));
+
+										var gauge = BuildGaugeChart(ChartView, g, chartWidth, chartHeight);
+										gauge.ExclusiveTouch = true;
+										gauge.UserInteractionEnabled = true;
+										gauge.AddGestureRecognizer(goalTap);
+									}
+
+								}
+								ChartView.SetNeedsLayout();
+								ChartView.LayoutIfNeeded();
+								/*GoalsScrollView.AddSubview(ChartView);
+								GoalsScrollView.ContentSize = new CGSize(ChartView.Frame.Width, GoalsScrollViewSize.Height);
+								GoalsScrollView.SetNeedsLayout();
+								GoalsScrollView.LayoutIfNeeded();
+								GoalsScrollView.BringSubviewToFront(ChartView);*/
+
+							}
+						});
+
+				//64f because that is what the trailing (32) and leading (32) space between the Goals ScrollView and the SuperView
+				var minWidth = this.View.Frame.Width - 64f;
+				var maxWdith = this.View.Frame.Width;
+				/*if (GoalsScrollView.ContentSize.Width >= minWidth && GoalsScrollView.ContentSize.Width <= maxWdith)
+				{
+					RightArrow.Hidden = true;
+					LeftArrow.Hidden = true;
+				}
+				else
+				{
+					RightArrow.Hidden = false;
+					LeftArrow.Hidden = false;
+				}*/
+
+
+			}
+			else
+			{
+				this.Alert(UIAlertActionStyle.Default, Resource.Error, e.Message, null, null);
+			}
+		}
+
+		void NavigationBarSetUp()
+		{
+			if (this.NavigationController != null)
+			{
+				//TODO: figure out how to make the status bar opaque.
+		
+
+				this.NavigationController.NavigationBar.BarStyle = UIBarStyle.BlackOpaque;
+				this.NavigationController.NavigationBar.SetBackgroundImage(new UIImage(), UIBarMetrics.Default);
+				this.NavigationController.NavigationBar.ShadowImage = new UIImage();
+				this.NavigationController.NavigationBar.BackgroundColor = PorpoiseColors.Turquoise;
+			}
+			NavigationItem.RightBarButtonItem = new UIBarButtonItem(Resource.Logout, UIBarButtonItemStyle.Plain, (s, e) =>
+			{
+				ViewModel.Logout();
+			});
+
+			UIBarButtonItem button = new UIBarButtonItem();
+
+			button.Image = new UIImage("logo.png");
+
+			NavigationItem.LeftBarButtonItem = button;
+
+			NavigationItem.Title = "Porpoise";
+		
+		}
+
+		void setupLatestPostSource()
+		{
+
+			var postSource = new ActivityTableSource(ViewModel.LatestLogPostList, LatestPostTableView, null, this);
+
+			Debug.WriteLine("Latest Post List Size "+ViewModel.LatestLogPostList.Count);
+
+			LatestPostTableView.Source = postSource;
+			LatestPostTableView.SeparatorInset = UIEdgeInsets.Zero;
+			LatestPostTableView.SeparatorStyle = UITableViewCellSeparatorStyle.None;
+
+			if (ViewModel.LatestLogPostList.Count > 0)
+			{
+				Bindings.Bind(postSource).For(x => x.ItemsSource).To(x => x.LatestLogPostList);
+				Bindings.Apply();
+			}
+			LatestPostTableView.EstimatedRowHeight = 120f;
+			LatestPostTableView.RowHeight = UITableView.AutomaticDimension;
+			LatestPostTableView.SetNeedsLayout();
+			LatestPostTableView.LayoutIfNeeded();
+
+		}
+
+		public override void ViewDidDisappear(bool animated)
+		{
+			base.ViewDidDisappear(animated);
+		}
+
+		CGRect? currentFrame;
+		CGSize GoalsScrollViewSize;
+		int gaugeCount = 0;
+
+		SFCircularGauge BuildGaugeChart(UIView ChartView, Goal goal, nfloat chartWidth, nfloat chartHeight)
+		{
+			var gauge = new SFCircularGauge();
+			var scale = new SFCircularScale();
+			NSMutableArray scales = new NSMutableArray();
+			scale = new SFCircularScale();
+			scale.StartValue = 0.5f;
+			scale.EndValue = (nfloat)goal.Hours;
+			scale.Interval = 1;
+			scale.StartAngle = 0;
+			scale.SweepAngle = 360;
+			scale.RimWidth = 10;
+			//scale.ShowTicks = true;
+			scale.ShowLabels = false;
+			scale.RimColor = PorpoiseColors.Grey;
+			scale.LabelColor = PorpoiseColors.Turquoise;
+			scale.LabelOffset = 0.2f;
+			NSMutableArray pointers = new NSMutableArray();
+			var rangePointer = new SFRangePointer();
+			rangePointer.Value = (nfloat)goal.HoursAgainstGoal;
+			rangePointer.Width = 10;
+
+			SFGaugeHeader header = new SFGaugeHeader();
+			header.TextStyle = UIFont.FromName("Helvetica-Bold", 20f);
+
+			double percentage = (goal.HoursAgainstGoal / goal.Hours);
+
+			//if greater than 100, mark the goal as complete & make font smaller if there are 3 or more characters in the precentage
+			if (percentage * 100 >= 100 || percentage * 100 >= 1000)
+			{
+				rangePointer.Value = 100;
+				rangePointer.Color = PorpoiseColors.Golden;
+				header.TextStyle = UIFont.FromName("Helvetica-Bold", 17f);
+			}
+			else
+			{
+
+				rangePointer.Color = PorpoiseColors.Turquoise;
+
+			}
+			header.Text = (NSString)percentage.ToString("P0");
+			header.TextColor = PorpoiseColors.Turquoise;
+			header.Position = new CGPoint(0.5f, 0.5f);
+			gauge.Headers.Add(header);
+			pointers.Add(rangePointer);
+			scale.Pointers = pointers;
+			scales.Add(scale);
+			gauge.Scales = scales;
+
+			if (!currentFrame.HasValue)
+			{
+				gauge.Frame = new CGRect(0f, 0f, chartWidth, chartHeight - 92);
+			}
+			else
+			{
+				gauge.Frame = new CGRect(currentFrame.Value.GetMaxX(), 0f, chartWidth, chartHeight - 92);
+			}
+
+			var goalName = new UILabel(new CGRect(gauge.Frame.X, gauge.Frame.Height, chartWidth, 20));
+			var goalHours = new UILabel(new CGRect(gauge.Frame.X, gauge.Frame.Height + 20f, chartWidth, 20));
+
+			goalName.TextColor = PorpoiseColors.DarkGrey;
+			goalName.Text = $"'{goal.Name.ToUpper()}'";
+			goalName.Font = UIFont.FromName("Helvetica", 10f);
+			goalName.TextAlignment = UITextAlignment.Center;
+			goalHours.TextColor = PorpoiseColors.Pink;
+			goalHours.Text = $"{goal.Hours.ToString()} HOURS";
+			goalHours.Font = UIFont.FromName("Helvetica", 16f);
+			goalHours.TextAlignment = UITextAlignment.Center;
+			ChartView.AddSubview(gauge);
+			ChartView.AddSubview(goalName);
+			ChartView.AddSubview(goalHours);
+			ChartView.UserInteractionEnabled = true;
+			gauge.UserInteractionEnabled = true;
+			currentFrame = gauge.Frame;
+			gaugeCount += 1;
+
+			//only add enough width to fit the goals (before the if statement was written, it would always add extra space even though there wasn't a goal to show)
+			if (ViewModel.CompanyGoals.Count != gaugeCount)
+			{
+			//	GoalsScrollViewSize = new CGSize(GoalsScrollViewSize.Width + gauge.Frame.Width, this.GoalsScrollView.Frame.Height);
+			}
+			else
+			{
+			//	GoalsScrollViewSize = new CGSize(GoalsScrollViewSize.Width + 16f, this.GoalsScrollView.Frame.Height);
+			}
+
+			return gauge;
+		}
+
+
+		UIAlertController BuildGoalDetailsAlert(Goal goal)
+		{
+			string goalDescription = "\n";
+
+			if (!string.IsNullOrEmpty(goal.Description))
+			{
+				goalDescription = $"{goal.Description} \n\n";
+			}
+
+			var stylesForValues = new UIStringAttributes();
+			var stylesForTitles = new UIStringAttributes();
+
+			stylesForTitles.ForegroundColor = PorpoiseColors.DarkGrey;
+			stylesForTitles.Font = UIFont.FromName("Helvetica-Bold", 14f);
+			stylesForValues.ForegroundColor = PorpoiseColors.Turquoise;
+			stylesForValues.Font = UIFont.FromName("Helvetica", 12f);
+
+			var ATGoalName = new NSAttributedString(goal.Name, stylesForTitles);
+			var ATDescription = new NSAttributedString(goalDescription, stylesForValues);
+			var ATHours = new NSAttributedString(Resource.Progress, stylesForTitles);
+			var ATHoursValues = new NSAttributedString(string.Format(Resource.GoalProgressSentence, goal.HoursAgainstGoal, goal.Hours, " \n\n"), stylesForValues);
+			var ATReward = new NSAttributedString(Resource.Reward, stylesForTitles);
+			var ATRewardValue = new NSAttributedString($"{goal.GiftName}", stylesForValues);
+
+
+			NSMutableAttributedString attributedGoalDetails = new NSMutableAttributedString();
+			attributedGoalDetails.Append(ATDescription);
+			attributedGoalDetails.Append(ATHours);
+			attributedGoalDetails.Append(ATHoursValues);
+			attributedGoalDetails.Append(ATReward);
+			attributedGoalDetails.Append(ATRewardValue);
+
+			var dialog = UIAlertController.Create(null, null, UIAlertControllerStyle.Alert);
+			dialog.SetValueForKey(attributedGoalDetails, (NSString)"AttributedMessage");
+			dialog.SetValueForKey(ATGoalName, (NSString)"AttributedTitle");
+
+			var action = UIAlertAction.Create("Ok", UIAlertActionStyle.Default, x => { });
+			dialog.AddAction(action);
+			return dialog;
+		}
+
+		void StyleElements()
+		{
+			HeaderBackground.BackgroundColor = PorpoiseColors.Turquoise;
+			//lblHoursGiven.TextColor = PorpoiseColors.DarkGrey;
+			//lblHourAmount.Font = UIFont.FromName("Helvetica-Bold", 28f);
+			//lblGoals.TextColor = PorpoiseColors.DarkGrey;
+			lblLatest.TextColor = PorpoiseColors.DarkGrey;
+			//GoalsScrollView.ShowsVerticalScrollIndicator = false;
+			//GoalsScrollView.ShowsHorizontalScrollIndicator = true;
+			View.BringSubviewToFront(HeaderDetailsContainer);
+			View.BringSubviewToFront(Overlay);
+			ProfilePicture.Layer.CornerRadius = ProfilePicture.Frame.Size.Height / 2.6f;
+			ProfilePicture.Layer.MasksToBounds = true;
+			ProfilePicture.Layer.BorderColor = UIColor.White.CGColor;
+			ProfilePicture.Layer.BorderWidth = 1.5f;
+
+		}
+
+		public override void ViewDidLayoutSubviews()
+		{
+			base.ViewDidLayoutSubviews();
+			View.BringSubviewToFront(HeaderDetailsContainer);
+			View.BringSubviewToFront(Overlay);
+
+		}
+
+	}
+
+}

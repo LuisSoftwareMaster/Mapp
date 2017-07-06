@@ -1,0 +1,575 @@
+using Foundation;
+using System;
+using System.CodeDom.Compiler;
+using UIKit;
+using System.Linq;
+using PorpoiseMobileApp.ViewModels;
+using System.Collections.Generic;
+using PorpoiseMobileApp.Models;
+using MvvmCross.Binding.iOS.Views;
+using PorpoiseMobileApp.Converters;
+using MvvmCross.Platform;
+using MvvmCross.Plugins.PictureChooser;
+using Acr.Settings;
+
+namespace PorpoiseMobileApp.iOS
+{
+
+	partial class LogHoursViewController : MvvmViewController<LogHoursViewModel>
+	{
+		private const string HighlightPlaceholder = "What was the highlight?";
+		private ISettings _settings;
+		private const int orgPickerTag = 0;
+		private const int goalPickerTag = 1;
+
+		UIPickerView _goalPicker;
+		UIDatePicker _datepicker;
+		UIPickerView _orgPicker;
+
+		public LogHoursViewController(IntPtr handle) : base(handle)
+		{
+		}
+		public override void ViewDidAppear(bool animated)
+		{
+			base.ViewDidAppear(animated);
+			StyleElements();
+		}
+		public async override void ViewDidLoad()
+		{
+			base.ViewDidLoad();
+			this._settings = Mvx.Resolve<ISettings>();
+
+			btnDone.Enabled = true;
+			btnCancel.Enabled = true;
+			SetupNavigationBar();
+
+			_datepicker = BuildDatePicker();
+			_orgPicker = BuildOrganisationPicker();
+			_goalPicker = BuildGoalPicker();
+
+			DateSelection.InputView = _datepicker;
+			OrganisationSelection.InputView = _orgPicker;
+			GoalSelection.InputView = _goalPicker;
+
+			var orgsPickerModel = SetupOrganisationsPickerModel(_orgPicker);
+			_orgPicker.Tag = 0;
+			SetUpPickerToolbar(OrganisationSelection, _orgPicker, orgsPickerModel);
+
+			var goalsPickerModel = SetupGoalsPickerModel(_goalPicker);
+			_goalPicker.Tag = 1;
+			SetUpPickerToolbar(GoalSelection, _goalPicker, goalsPickerModel);
+
+			UploadedImage.Hidden = true;
+
+
+
+			if (ViewModel.IsEditing)
+			{
+				if (this.TabBarController != null)
+				{
+					this.TabBarController.SelectedIndex = 1;
+				}
+				Bindings.Bind(btnDone).To(vm => vm.UpdateLogCommand);
+				Bindings.Bind(UploadedImage).To(vm => vm.PhotoUrl).WithConversion(new UriToImageConverter());
+				UploadedImage.Hidden = false;
+				this.View.BringSubviewToFront(UploadedImage);
+			}
+			else {
+				Bindings.Bind(btnDone).To(vm => vm.LogHoursCommand);
+			}
+
+			Bindings.Bind(waiting).For(x => x.Hidden).To(vm => vm.InFlight).WithConversion(new InverseConverter());
+			Bindings.Bind(Hours).For(x => x.Text).To(vm => vm.HourAmount).WithConversion(new DoubleCantBe0ToStringConverter());
+			Bindings.Bind(Highlight).For(x => x.Text).To(vm => vm.Highlight);
+			Bindings.Bind(orgsPickerModel).For(x => x.ItemsSource).To(vm => vm.Organisations);
+			Bindings.Bind(orgsPickerModel).For(x => x.SelectedItem).To(vm => vm.Organisation);
+			Bindings.Bind(OrganisationSelection).For(x => x.Text).To(vm => vm.Organisation.Name);
+			Bindings.Bind(goalsPickerModel).For(x => x.ItemsSource).To(vm => vm.Goals);
+			Bindings.Bind(goalsPickerModel).For(x => x.SelectedItem).To(vm => vm.Goal);
+			Bindings.Bind(GoalSelection).For(x => x.Text).To(vm => vm.Goal.Name);
+			Bindings.Bind(_datepicker).For(x => x.Date).To(vm => vm.Date).WithConversion(new DateToNSDateConverter());
+			//need to deal with converting the date textfield to a long date time
+			Bindings.Bind(DateSelection).For(x => x.Text).To(vm => vm.Date).WithConversion(new LongDateConverter());
+
+			Bindings.Bind(UploadedImage).To(vm => vm.Bytes).WithConversion("InMemoryImage");
+			Bindings.Apply();
+
+<<<<<<< mine
+			SetupFieldValidation();
+
+			UIAlertController imageDialog;
+
+=======
+>>>>>>> theirs
+			AddImage.TouchUpInside += (sender, e) =>
+			{
+				UIAlertController dialog = BuildUploadImageDialog();
+				this.PresentViewController(dialog, true, () => { });
+			};
+
+			ViewModel.UploadAssetEvent += (sender, e) =>
+			{
+				//if successull, make the image view visible again
+				if (e.Successful)
+				{
+					UploadedImage.Hidden = false;
+					this.View.BringSubviewToFront(UploadedImage);
+				}
+			};
+
+			ViewModel.UpdateLogEvent += (sender, e) =>
+			{
+				if (e.Successful)
+				{
+					this.Alert("Success", e.Message, () =>
+					{
+						CleanAndGoHome();
+					}, null);
+					CleanAndGoHome();
+				}
+				else {
+					this.Alert("Error", e.Message, null, null);
+				}
+
+			};
+
+			ViewModel.LogHoursEvent += (sender, e) =>
+			{
+				if (e.Successful)
+				{
+					this.Alert("Success", e.Message, () =>
+					{
+						CleanAndGoHome();
+					}, null);
+				}
+			};
+
+			btnCancel.TouchUpInside += (sender, e) =>
+			{
+				//if dirty (user has entered things), show confirmation pop up
+				if (this.IsDirty)
+				{
+					this.Confirm(Resources.AreYouSure, Resources.UnsavedChanges, null, ok =>
+					{
+						if (ok)
+						{
+							//if user already uploaded an image and clicks cancel, delete it
+							if (!ViewModel.IsEditing)
+							{
+								if (!string.Equals(ViewModel.PhotoUrl, string.Empty))
+								{
+									ViewModel.RemoveImageCommand.Execute();
+									ViewModel.RemoveImageEvent += (s, eventArgs) =>
+									{
+										Console.WriteLine(eventArgs.Message);
+									};
+								}
+
+							}
+							CleanAndGoHome();
+						}
+					});
+				}
+				else {
+					CleanAndGoHome();
+				}
+
+			};
+
+
+
+
+			DateSelection.TouchUpInside += (sender, e) =>
+			{
+				ShowPicker(_datepicker);
+			};
+
+			OrganisationSelection.TouchUpInside += (sender, e) =>
+			{
+				ShowPicker(_orgPicker);
+			};
+
+			GoalSelection.TouchUpInside += (sender, e) =>
+			{
+				ShowPicker(_goalPicker);
+			};
+
+
+			Highlight.KeyboardDismissMode = UIScrollViewKeyboardDismissMode.OnDrag;
+			ScrollView.KeyboardDismissMode = UIScrollViewKeyboardDismissMode.OnDrag;
+		}
+
+		UIAlertController BuildUploadImageDialog()
+		{
+			var dialog = UIAlertController.Create("", "Upload an Image", UIAlertControllerStyle.ActionSheet);
+			if (dialog.PopoverPresentationController != null)
+			{
+				dialog.PopoverPresentationController.SourceView = AddImage;
+				dialog.PopoverPresentationController.SourceRect = AddImage.Bounds;
+			}
+			var camera = UIAlertAction.Create("Take Photo", UIAlertActionStyle.Default, x =>
+			{
+				ViewModel.TakePictureCommand.Execute(null);
+			});
+
+			var library = UIAlertAction.Create("Choose From Library", UIAlertActionStyle.Default, x =>
+			{
+				ViewModel.ChoosePictureCommand.Execute(null);
+			});
+
+            //TODO: test the cancel button
+            var cancel = UIAlertAction.Create("Cancel", UIAlertActionStyle.Cancel, null);
+
+			dialog.AddAction(camera);
+			dialog.AddAction(library);
+            dialog.AddAction(cancel);
+			return dialog;
+		}
+
+		void SetupNavigationBar()
+		{
+			if (this.NavigationController != null)
+			{
+				this.NavigationController.NavigationBar.BarStyle = UIBarStyle.Black;
+				this.NavigationController.NavigationBar.ShadowImage = new UIImage();
+				this.NavigationController.NavigationBar.BackgroundColor = PorpoiseColors.Turquoise;
+				this.NavigationController.NavigationBar.SetBackgroundImage(new UIImage(), UIBarMetrics.Default);
+				NavigationItem.BackBarButtonItem = null;
+			}
+		}
+
+
+		void SetupFieldValidation()
+		{
+			Hours.KeyboardType = UIKeyboardType.Default;
+			Hours.RightView = MakeInputErrorInfo(() => "Invalid Hour Amount");
+			Hours.RightView.TintColor = PorpoiseColors.LightErrorRed;
+			Hours.ReturnKeyType = UIReturnKeyType.Continue;
+			Hours.EditingDidEnd += (sender, e) =>
+			{
+				Hours.RightViewMode = Validation.IsNumeric(Hours.Text) ? UITextFieldViewMode.Never : UITextFieldViewMode.UnlessEditing;
+				Hours.ColoredBorder(Validation.IsNumeric(Hours.Text) ? UIColor.White.CGColor : PorpoiseColors.LightErrorRed.CGColor);
+			};
+			Hours.ShouldReturn = field =>
+			{
+				Highlight.BecomeFirstResponder();
+				field.ResignFirstResponder();
+				return true;
+			};
+
+			GoalSelection.RightView = MakeInputErrorInfo(() => "Please select a goal");
+			GoalSelection.RightView.TintColor = PorpoiseColors.LightErrorRed;
+
+			ViewModel.ForPropertyChange(x => x.Goal, y =>
+			{
+				GoalSelection.RightViewMode = (_goalPicker.Model as MvxPickerViewModel).SelectedItem != null || !string.IsNullOrEmpty(GoalSelection.Text) ? UITextFieldViewMode.Never : UITextFieldViewMode.UnlessEditing;
+				GoalSelection.ColoredBorder((_goalPicker.Model as MvxPickerViewModel).SelectedItem != null || !string.IsNullOrEmpty(GoalSelection.Text) ? UIColor.White.CGColor : PorpoiseColors.LightErrorRed.CGColor);
+			});
+			GoalSelection.ShouldReturn = field =>
+			{
+				_orgPicker.BecomeFirstResponder();
+				field.ResignFirstResponder();
+				return true;
+			};
+
+			OrganisationSelection.RightView = MakeInputErrorInfo(() => "Please select an organisation");
+			OrganisationSelection.RightView.TintColor = PorpoiseColors.LightErrorRed;
+
+			ViewModel.ForPropertyChange(x => x.Organisation, y =>
+			{
+				OrganisationSelection.RightViewMode = (_orgPicker.Model as MvxPickerViewModel).SelectedItem != null && !string.IsNullOrEmpty(OrganisationSelection.Text) ? UITextFieldViewMode.Never : UITextFieldViewMode.UnlessEditing;
+				OrganisationSelection.ColoredBorder((_orgPicker.Model as MvxPickerViewModel).SelectedItem != null && !string.IsNullOrEmpty(OrganisationSelection.Text) ? UIColor.White.CGColor : PorpoiseColors.LightErrorRed.CGColor);
+			});
+			OrganisationSelection.ShouldReturn = field =>
+			{
+				_datepicker.BecomeFirstResponder();
+				field.ResignFirstResponder();
+				return true;
+			};
+
+			DateSelection.RightView = MakeInputErrorInfo(() => "Date must be in the last year and cannot be in the future");
+			DateSelection.RightView.TintColor = PorpoiseColors.LightErrorRed;
+			DateSelection.EditingDidEnd += (sender, e) =>
+			{
+				DateSelection.RightViewMode = Validation.IsValidDate(ViewModel.Date.ToString()) ? UITextFieldViewMode.Never : UITextFieldViewMode.UnlessEditing;
+				DateSelection.ColoredBorder(Validation.IsValidDate(ViewModel.Date.ToString()) ? UIColor.White.CGColor : PorpoiseColors.LightErrorRed.CGColor);
+			};
+
+		}
+
+		public override void Cleanup()
+		{
+			base.Cleanup();
+			btnDone.Enabled = false;
+			Hours.Text = "";
+			//Highlight.Text = HighlightPlaceholder;
+			OrganisationSelection.Text = "";
+			DateSelection.Text = "";
+			GoalSelection.Text = "";
+			this.IsDirty = false;
+		}
+
+		void CleanAndGoHome()
+		{
+			this.Cleanup();
+			ViewModel.ReturnToProfile();
+
+		}
+
+
+		private void SetUpPickerToolbar(UITextField txtField, UIPickerView pickerView, MvxPickerViewModel model)
+		{
+			UIToolbar toolbar = CreateToolBar();
+
+			//create "done" button for toolbar and update textfield with selectedItem
+			UIBarButtonItem doneButton = new UIBarButtonItem("Done", UIBarButtonItemStyle.Done, (sender, e) =>
+			{
+				txtField.ResignFirstResponder();
+				//if user opens the picker for the first time, the first item is selected by default but when hitting done, it doesn't register as selected so force it to be.
+				if (model.SelectedItem == null)
+				{
+					model.Selected(pickerView, 0, 0);
+				}
+				if (model.SelectedItem != null)
+				{
+					switch (pickerView.Tag)
+					{
+						case (orgPickerTag):
+							//if user selects "Other", show dialog to enter organisation name
+							if (string.Equals((model.SelectedItem as Organisation).Name, Resources.Other))
+							{
+								var alert = UIAlertController.Create("Other Organisation", "Enter the organisation name you supported.", UIAlertControllerStyle.Alert);
+								alert.AddTextField(input =>
+								{
+									AddNewOrg(input, txtField, model);
+									pickerView.ReloadComponent(0);
+								});
+								alert.AddAction(UIAlertAction.Create("Save", UIAlertActionStyle.Default, x =>
+								{
+									AddNewOrg(alert.TextFields[0], txtField, model);
+									pickerView.ReloadComponent(0);
+								}));
+								alert.AddAction(UIAlertAction.Create("Cancel", UIAlertActionStyle.Cancel, null));
+
+								this.PresentViewController(alert, true, null);
+							}
+							break;
+						case (goalPickerTag):
+							ViewModel.Goal = ViewModel.Goals.FirstOrDefault(x => x.Name == (model.SelectedItem as Goal).Name);
+							txtField.Text = (model.SelectedItem as Goal).Name;
+							break;
+
+					}
+
+					pickerView.ReloadComponent(0);
+				}
+
+			});
+			doneButton.TintColor = PorpoiseColors.Turquoise;
+
+			//cancel button to close toolbar and take no action
+			UIBarButtonItem cancelButton = new UIBarButtonItem("Cancel", UIBarButtonItemStyle.Plain, (sender, e) =>
+			{
+				//if user opens picker and hasn't selected an item yet and hits cancel, leave the textfield blank
+				if (string.IsNullOrEmpty(txtField.Text))
+				{
+					switch (pickerView.Tag)
+					{
+						case (orgPickerTag):
+							ViewModel.RaisePropertyChanged(() => ViewModel.Organisation);
+							break;
+						case (goalPickerTag):
+							ViewModel.RaisePropertyChanged(() => ViewModel.Goal);
+							break;
+
+					}
+
+					model.SelectedItem = null;
+					model.SelectedChangedCommand?.Execute(null);
+				}
+
+				txtField.ResignFirstResponder();
+				pickerView.ReloadComponent(0);
+			});
+
+			//add space between the 2 buttons so the Cancel button can be on the right
+			var flexspace = new UIBarButtonItem(UIBarButtonSystemItem.FlexibleSpace, null, null);
+
+			toolbar.SetItems(new UIBarButtonItem[] { cancelButton, flexspace, doneButton }, true);
+			txtField.InputAccessoryView = toolbar;
+
+		}
+
+		void AddNewOrg(UITextField alertInput, UITextField selectedOrganisationTextfield, MvxPickerViewModel model)
+		{
+
+			if (!string.IsNullOrEmpty(alertInput.Text))
+			{
+				this.ViewModel.Organisation = new Organisation
+				{
+					Id = new Guid(),
+					Name = alertInput.Text
+				};
+				selectedOrganisationTextfield.Text = alertInput.Text;
+				model.SelectedItem = this.ViewModel.Organisation;
+			}
+			else {
+				alertInput.RightView = MakeInputErrorInfo(() => "Please Enter an Organisation");
+			}
+
+			selectedOrganisationTextfield.Text = (model.SelectedItem as Organisation).Name;
+
+		}
+
+		static UIToolbar CreateToolBar()
+		{
+			var toolbar = new UIToolbar();
+			toolbar.BarStyle = UIBarStyle.Black;
+			toolbar.Translucent = true;
+			toolbar.TintColor = PorpoiseColors.Turquoise;
+			toolbar.BarTintColor = PorpoiseColors.Grey;
+			toolbar.SizeToFit();
+			return toolbar;
+		}
+
+		static UIPickerView BuildGoalPicker()
+		{
+			var _goalPicker = new UIPickerView();
+			_goalPicker.TintColor = PorpoiseColors.Turquoise;
+			_goalPicker.BackgroundColor = UIColor.White;
+			_goalPicker.AutoresizingMask = UIViewAutoresizing.FlexibleWidth;
+			return _goalPicker;
+		}
+
+		static UIPickerView BuildOrganisationPicker()
+		{
+			var _orgPicker = new UIPickerView();
+			_orgPicker.TintColor = PorpoiseColors.Turquoise;
+			_orgPicker.BackgroundColor = UIColor.White;
+			_orgPicker.AutoresizingMask = UIViewAutoresizing.FlexibleWidth;
+			return _orgPicker;
+		}
+
+		private UIDatePicker BuildDatePicker()
+		{
+			var _datepicker = new UIDatePicker();
+			_datepicker.Mode = UIDatePickerMode.Date;
+			_datepicker.TintColor = PorpoiseColors.Turquoise;
+			_datepicker.BackgroundColor = UIColor.White;
+			_datepicker.AutoresizingMask = UIViewAutoresizing.FlexibleWidth;
+			if (ViewModel.IsEditing)
+			{
+				_datepicker.Date = Extensions.DateTimeToNSDate(ViewModel.Date);
+			}
+
+			else {
+				_datepicker.Date = NSDate.Now;
+			}
+			var toolbar = CreateToolBar();
+
+			//create "done" button for toolbar and update textfield with selectedItem
+			UIBarButtonItem doneButton = new UIBarButtonItem("Done", UIBarButtonItemStyle.Done, (sender, e) =>
+			{
+				DateSelection.ResignFirstResponder();
+				var dateString = _datepicker.Date.ToString();
+				var formatted = DateTime.Parse(dateString);
+				DateSelection.Text = formatted.ToString("dddd, MMMM, dd, yyyy");
+				this.ViewModel.Date = formatted;
+
+			});
+			doneButton.TintColor = PorpoiseColors.Turquoise;
+
+			UIBarButtonItem cancelButton = new UIBarButtonItem("Cancel", UIBarButtonItemStyle.Plain, (sender, e) =>
+			{
+				DateSelection.ResignFirstResponder();
+
+			});
+
+			//add space between the 2 buttons so the Cancel button can be on the right
+			var flexspace = new UIBarButtonItem(UIBarButtonSystemItem.FlexibleSpace, null, null);
+
+			toolbar.SetItems(new UIBarButtonItem[] { cancelButton, flexspace, doneButton }, true);
+			DateSelection.InputAccessoryView = toolbar;
+			return _datepicker;
+		}
+
+		UIView currentPicker;
+
+		public void ShowPicker(UIView picker)
+		{
+
+			if (currentPicker != null)
+			{
+				currentPicker.Hidden = true;
+			}
+			currentPicker.Hidden = false;
+			currentPicker = picker;
+		}
+
+		MvxPickerViewModel SetupOrganisationsPickerModel(UIPickerView pickerview)
+		{
+			var orgsPickerModel = new MvxPickerViewModel(pickerview);
+			orgsPickerModel.ItemsSource = ViewModel.Organisations;
+			orgsPickerModel.SelectedItem = ViewModel.Organisation;
+			pickerview.Model = orgsPickerModel;
+			pickerview.ShowSelectionIndicator = true;
+			pickerview.TintColor = PorpoiseColors.Turquoise;
+			return orgsPickerModel;
+		}
+
+		MvxPickerViewModel SetupGoalsPickerModel(UIPickerView pickerview)
+		{
+			var goalsPickerModel = new MvxPickerViewModel(pickerview);
+			goalsPickerModel.ItemsSource = ViewModel.Goals;
+			goalsPickerModel.SelectedItem = ViewModel.Goal;
+			pickerview.Model = goalsPickerModel;
+			pickerview.ShowSelectionIndicator = true;
+			pickerview.TintColor = PorpoiseColors.Turquoise;
+			return goalsPickerModel;
+
+		}
+
+		void StyleElements()
+		{
+			((PorpoiseButton)btnDone).Enabled = true;
+			((PorpoiseButton)btnDone).Inverse = false;
+			((PorpoiseButton)btnCancel).Bordered = true;
+			((PorpoiseButton)btnCancel).Inverse = true;
+			AddImage.SetTitleColor(PorpoiseColors.Turquoise, UIControlState.Normal);
+			CameraIcon.TintColor = PorpoiseColors.Turquoise;
+
+
+			Highlight.Layer.BorderWidth = 1f;
+			//	Highlight.Text = HighlightPlaceholder;
+			Highlight.Layer.BorderColor = UIColor.White.CGColor;
+			Highlight.BackgroundColor = UIColor.Clear;
+			Highlight.TextColor = UIColor.White;
+
+			((PorpoiseEditText)Hours).Bordered = true;
+			Hours.BackgroundColor = UIColor.Clear;
+			Hours.TextColor = UIColor.White;
+			//	Hours.AttributedPlaceholder = new NSAttributedString(" How many hours?", null, UIColor.White);
+
+			((PorpoiseEditText)DateSelection).Bordered = true;
+			DateSelection.BackgroundColor = UIColor.Clear;
+			DateSelection.TextColor = UIColor.White;
+			DateSelection.Text = "";
+			DateSelection.AttributedPlaceholder = new NSAttributedString($" {DateTime.Now.ToLongDateString()}", null, UIColor.FromRGB(255, 255, 255));
+
+			((PorpoiseEditText)OrganisationSelection).Bordered = true;
+			OrganisationSelection.BackgroundColor = UIColor.Clear;
+			OrganisationSelection.TextColor = UIColor.White;
+
+			((PorpoiseEditText)GoalSelection).Bordered = true;
+			GoalSelection.BackgroundColor = UIColor.Clear;
+			GoalSelection.TextColor = UIColor.White;
+
+			this.View.BackgroundColor = PorpoiseColors.Turquoise;
+			this.ScrollView.BackgroundColor = PorpoiseColors.Turquoise;
+			//ScrollView.Frame = View.Bounds;
+			//ScrollView.ContentSize = LogHoursContainer.Frame.Size;
+
+
+		}
+	}
+}

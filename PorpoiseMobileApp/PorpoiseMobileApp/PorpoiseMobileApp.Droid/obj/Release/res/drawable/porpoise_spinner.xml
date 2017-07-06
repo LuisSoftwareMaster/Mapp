@@ -1,0 +1,1 @@
+<animated-rotate android:pivotX="50%" android:pivotY="50%" android:fromDegrees="0" android:toDegrees="360" android:drawable="@drawable/spinner" xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,68 @@
+﻿<Properties StartupConfiguration="{36E292AD-82F4-460F-8E7D-BB4B761EF934}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PorpoiseMobileApp/PorpoiseMobileApp.iOS/Main.storyboard">
+    <Files>
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/ActivityViewController.cs" Line="377" Column="3" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/AccountSettingsViewController.cs" Line="19" Column="4" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/Info.plist" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/LogPost.cs" Line="36" Column="19" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/LogPostOrganizationViewModel.cs" Line="750" Column="11" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostItemCellController.cs" Line="186" Column="5" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/PorpoiseWebApiClient.cs" Line="379" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Services/IImageService.cs" Line="18" Column="16" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Services/ImageService.cs" Line="99" Column="28" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/LogHoursViewModel.cs" Line="855" Column="55" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/LogHoursResponseModel.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/Converters/AttributedPostDetailsConverter.cs" Line="49" Column="4" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/ResponseModel.cs" Line="32" Column="21" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/LoginResponseModel.cs" Line="38" Column="15" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/LoginRequestModel.cs" Line="15" Column="30" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/PorpoiseException.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/app.config" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/AppDelegate.cs" Line="25" Column="8" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/NoPhotoPost.cs" Line="160" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/RequestAccountViewController.cs" Line="46" Column="20" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/ConfirmationViewController.cs" Line="21" Column="20" />
+      <File FileName="../../../:Users:luis:Documents:BACKUP:porpoise-mobile-app:PorpoiseMobileApp:PorpoiseMobileApp:PorpoiseMobileApp.iOS:Main.storyboard" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/Custom/PorpoiseView.cs" Line="23" Column="2" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/ChallengeLogHourViewController.cs" Line="336" Column="21" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/OrganizationSearchItem.xib" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostItemCellController.xib" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/CompanyPostItemCellController.xib" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/NoPhotoPost.xib" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/CompanyResultModel.cs" Line="1" Column="1" />
+<<<<<<< mine
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LogPostOrganizationViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LogPostOrganizationViewController.cs" Line="30" Column="4" />
+=======
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LogPostOrganizationViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/Main.storyboard" />
+>>>>>>> theirs
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LoginViewController.designer.cs" Line="1" Column="1" />
+<<<<<<< mine
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/Main.storyboard" />
+=======
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/Converters/UriToImageConverter.cs" Line="17" Column="5" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/ProfileViewModel.cs" Line="481" Column="4" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/ProfileResponseModel.cs" Line="8" Column="2" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/EmployeeResponseModel.cs" Line="113" Column="27" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/Custom/PorpoiseTextView.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/HomeViewModel.cs" Line="159" Column="4" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/ActivityViewModel.cs" Line="405" Column="4" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/HomeViewController.cs" Line="29" Column="5" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LogHoursViewController.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LogHourPhotoViewController.cs" Line="395" Column="68" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LogPostOrganizationViewController.cs" Line="340" Column="4" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/ProfileViewController.cs" Line="536" Column="25" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/LogHourPhotoViewModel.cs" Line="123" Column="53" />
+>>>>>>> theirs
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.PorpoiseMobileApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2E57FBC1-A5F8-415B-8DA9-47DA83CE8B81" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PorpoiseMobileApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="AppTheme" />
+</Properties>

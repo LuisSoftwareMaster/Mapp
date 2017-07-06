@@ -1,0 +1,90 @@
+﻿<Properties StartupConfiguration="{1C75BCB0-E322-4C36-8948-D7865AED0315}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PorpoiseMobileApp/PorpoiseMobileApp.Droid/Resources/values/styles.xml">
+    <Files>
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/CodeConfirmationRequestModel.cs" Line="9" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/SignupRequestModel.cs" Line="14" Column="2" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/PorpoiseWebApiClient.cs" Line="21" Column="9" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/Info.plist" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/SetNewPasswordRequestModel.cs" Line="4" Column="44" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/LoginResponseModel.cs" Line="46" Column="9" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/LoginViewModel.cs" Line="154" Column="59" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/SetNewPasswordResponseModel.cs" Line="8" Column="7" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/ConfirmationCodeViewController.cs" Line="159" Column="52" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/ConfirmationCodeViewModel.cs" Line="68" Column="11" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PasswordConfirmationViewController.cs" Line="10" Column="6" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/PasswordConfirmationViewModel.cs" Line="112" Column="14" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/IPorpoiseWebApiClient.cs" Line="43" Column="74" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/InviteCoworkerViewController.cs" Line="28" Column="10" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/InviteCoworkerViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LoginViewController.cs" Line="218" Column="37" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/InviteCoworkerViewModel.cs" Line="141" Column="18" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/ActivityViewController.cs" Line="94" Column="9" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/ClientRequestResult.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/InvitationConfirmationViewController.cs" Line="8" Column="46" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LogPostOrganizationViewController.cs" Line="28" Column="8" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/InvitationConfirmation.cs" Line="24" Column="45" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/InvitationConfirmationViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/AddCoworkerViewController.cs" Line="209" Column="10" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/AddCoworkerViewController.xib" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/GetPostResponseModel.cs" Line="20" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LogHourPhotoViewController.cs" Line="307" Column="9" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/InviteCoworkerRequestModel.cs" Line="5" Column="6" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/EmployeeResponseModel.cs" Line="12" Column="15" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/LogHourPhotoViewModel.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/ChallengeLogHourViewModel.cs" Line="71" Column="3" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/InviteCoworkerList.cs" Line="46" Column="6" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/ProfileViewController.cs" Line="692" Column="28" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/AccountSettingsViewModel.cs" Line="26" Column="4" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostItemCellController.cs" Line="429" Column="45" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/ProfileViewModel.cs" Line="153" Column="35" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/ProfileResponseModel.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/ChallengeLogHourViewController.cs" Line="233" Column="4" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/Main.storyboard" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/RequestAccountViewController.cs" Line="481" Column="59" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LoginViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/HomeViewModel.cs" Line="225" Column="3" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/HomeViewController.cs" Line="80" Column="29" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/ActivityViewModel.cs" Line="567" Column="8" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LoginTutorialFirst.cs" Line="47" Column="13" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LoginTutorialFirst.xib" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LoginTutorialFirst.designer.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/SecondLoginTutorial.cs" Line="126" Column="58" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/SecondLoginTutorial.xib" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/SecondLoginTutorial.designer.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/AccountInfo.cs" Line="13" Column="42" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/LogHoursResponseModel.cs" Line="23" Column="10" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostingTutorialFirst.cs" Line="34" Column="59" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostingTutorialFirst.xib" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostingTutorialFirst.designer.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostingTutorialSecond.cs" Line="94" Column="21" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostingTutorialSecond.xib" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostingTutorialSecond.designer.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostingTutorialThird.cs" Line="170" Column="21" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostingTutorialThird.xib" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/LoginTutorialRequestModel.cs" Line="9" Column="6" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostingTutorialThird.designer.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/GiftResponseModel.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.Droid/Views/HomeView.cs" Line="160" Column="13" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.Droid/Setup.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/App.cs" Line="25" Column="41" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/LoadingViewModel.cs" Line="70" Column="30" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/HomeViewModelAndroid.cs" Line="28" Column="133" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/FirstViewModel.cs" Line="7" Column="10" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.Droid/Views/FirstView.cs" Line="13" Column="2" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.Droid/Views/ActivityView.cs" Line="28" Column="5" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/MenuItemViewModel.cs" Line="59" Column="26" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Resource.Designer.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Resource.resx" Line="319" Column="10" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.Droid/Views/Splash.cs" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.Droid/Resources/values/styles.xml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|ARM" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.PorpoiseMobileApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PorpoiseMobileApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="AppTheme" />
+</Properties>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <!--android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawerLayout"
+        android:fitsSystemWindows="true"-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include
+                layout="@layout/toolbar" />
+            <FrameLayout
+                android:id="@+id/content_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:id="@+id/side_menu"
+            android:layout_gravity="start">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/overlay_wrapper">
+                <RelativeLayout
+                    android:layout_width="240dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/email_address"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@android:color/white"
+                        android:ellipsize="end" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/email_address"
+                        android:layout_alignLeft="@id/email_address"
+                        android:textColor="@android:color/white"
+                        android:ellipsize="end"
+                        android:id="@+id/user_fullname" />
+                    <MvxListView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/menu"
+                        android:background="@color/side_bar_background"
+                        android:dividerHeight="0dp"
+                        android:divider="@null" />
+                </RelativeLayout>
+            </FrameLayout>
+        </RelativeLayout>
+  <!--/android.support.v4.widget.DrawerLayout-->
+<!--<FrameLayout
+        android:id="@+id/coach_marks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+</FrameLayout>

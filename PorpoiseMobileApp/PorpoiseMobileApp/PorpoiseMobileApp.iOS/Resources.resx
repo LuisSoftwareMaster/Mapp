@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activity" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ClickHereToJoin" xml:space="preserve">
+    <value>Don't have an account? {0} to join!</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmailSentMessage" xml:space="preserve">
+    <value>An email was sent, please check your email.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="GetPostDetailsError" xml:space="preserve">
+    <value>There was a problem retrieving the details of your post, please try again.</value>
+  </data>
+  <data name="HoursLoggedError" xml:space="preserve">
+    <value>There was a problem creating your post, please ensure all fields are filled and valid.</value>
+  </data>
+  <data name="HoursLoggedSuccess" xml:space="preserve">
+    <value>Your hours have been logged, thank you for being awesome!</value>
+  </data>
+  <data name="HoursUpdatedError" xml:space="preserve">
+    <value>There was a problem updating your post, please ensure all fields are filled and valid.</value>
+  </data>
+  <data name="HoursUpdatedSuccess" xml:space="preserve">
+    <value>Awesome, your post has been updated!</value>
+  </data>
+  <data name="ImageRotationError" xml:space="preserve">
+    <value>The image is too large to rotate. Please try uploading another image or editing the image outside of Porpoise and try uploading it again.</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>Invalid Email Address</value>
+  </data>
+  <data name="InvalidFieldsError" xml:space="preserve">
+    <value>Please ensure all fields are filled and valid.</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>Invalid password.</value>
+  </data>
+  <data name="LoginError" xml:space="preserve">
+    <value>Invalid username or password. Please try again.</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="MailNotOnError" xml:space="preserve">
+    <value>Send us an email at sos@getporpoise.com and we'll be more than happy to help!</value>
+  </data>
+  <data name="MailNotOnTitle" xml:space="preserve">
+    <value>iOS Mail Appplication not set up.</value>
+  </data>
+  <data name="MissingUploadedImage" xml:space="preserve">
+    <value>Please ensure you've added an image!</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="PostDonationSentence" xml:space="preserve">
+    <value>Posted {0} hours towards {1} with {2}!</value>
+    <comment>ex: Donated 2 hours towards An Awesome Challenge with United Way!</comment>
+  </data>
+  <data name="ProblemOccurred" xml:space="preserve">
+    <value>Problem Occurred</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="S3BucketName" xml:space="preserve">
+    <value>production-mobileuploads</value>
+  </data>
+  <data name="S3KeyNameEnd" xml:space="preserve">
+    <value>-post-photo.jpg</value>
+    <comment>end of the keyname for s3 objects</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ServerConnectionError" xml:space="preserve">
+    <value>There was a problem connecting to the server. Please try again.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="SupportEmailAddress" xml:space="preserve">
+    <value>sos@getporpoise.com</value>
+  </data>
+  <data name="SupportEmailBody" xml:space="preserve">
+    <value>Please describe your issue below:</value>
+  </data>
+  <data name="SupportEmailError" xml:space="preserve">
+    <value>Oops! There was an error when sending your email. If you continue to have issues,you can reach us at sos@getporpoise.com.</value>
+  </data>
+  <data name="SupportEmailSent" xml:space="preserve">
+    <value>Thank you for contacting us. We'll get back to you as soon as possible.</value>
+  </data>
+  <data name="SupportEmailSubject" xml:space="preserve">
+    <value>Help me, Porpoise!</value>
+  </data>
+  <data name="UnknownViewModel" xml:space="preserve">
+    <value>Unknown view model</value>
+  </data>
+	<data name="ConfirmationCodeError" xml:space="preserve">
+    <value>Incorrect Code</value>
+	</data>
+  <data name="UnsavedChanges" xml:space="preserve">
+    <value>You have unsaved changes. If you continue you will lose all your changes.</value>
+  </data>
+</root>

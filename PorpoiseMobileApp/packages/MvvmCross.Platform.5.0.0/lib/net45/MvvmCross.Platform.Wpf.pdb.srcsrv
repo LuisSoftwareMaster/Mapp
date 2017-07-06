@@ -1,0 +1,11 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/mvvmcross/mvvmcross/efb4ef36e6fbbd4b13cffb5c9da3c49f536265df/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+C:\agent\_w\1\s\MvvmCross\Platform\Wpf\Converters\MvxNativeValueConverter.cs*MvvmCross/Platform/Wpf/Converters/MvxNativeValueConverter.cs
+C:\agent\_w\1\s\MvvmCross\Platform\Wpf\Platform\MvxDesignTimeHelper.cs*MvvmCross/Platform/Wpf/Platform/MvxDesignTimeHelper.cs
+C:\agent\_w\1\s\MvvmCross\Platform\Wpf\Properties\AssemblyInfo.cs*MvvmCross/Platform/Wpf/Properties/AssemblyInfo.cs
+SRCSRV: end ------------------------------------------------

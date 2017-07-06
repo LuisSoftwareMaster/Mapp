@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TransitionViewController">
+            <connections>
+                <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Tabs/Selected/activity.png" width="25" height="25"/>
+        <image name="Tabs/Selected/loghours.png" width="25" height="25"/>
+        <image name="Tabs/Selected/profile.png" width="25" height="25"/>
+        <image name="Tabs/Normal/activity.png" width="25" height="25"/>
+        <image name="Tabs/Normal/loghours.png" width="25" height="25"/>
+        <image name="Tabs/Normal/profile.png" width="25" height="25"/>
+        <image name="Tabs/Selected/settingsTools.png" width="28.333334" height="28.333334"/>
+        <image name="Tabs/Normal/settingsTools.png" width="28.333334" height="28.333334"/>
+        <image name="Logo_outline2.png" width="348" height="314"/>
+        <image name="porpoise_background.png" width="1024" height="1366"/>
+        <image name="Tabs/Normal/support.png" width="28.333334" height="28.333334"/>
+        <image name="Tabs/Selected/support.png" width="30" height="30"/>
+        <image name="Tabs/Normal/activityIcon.png" width="34" height="34"/>
+        <image name="Tabs/Normal/iconProfile.png" width="34" height="34"/>
+        <image name="Tabs/Normal/intercom.png" width="34" height="34"/>
+        <image name="Tabs/Normal/plusIcon.png" width="34" height="34"/>
+        <image name="Tabs/Normal/profileBarIcon.png" width="112" height="112"/>
+        <image name="Tabs/Normal/profileImage.png" width="50" height="50"/>
+        <image name="Tabs/Normal/settings.png" width="34" height="34"/>
+        <image name="Next.png" width="67" height="26"/>
+        <image name="logo.png" width="53" height="44"/>
+    </resources>
+</document>

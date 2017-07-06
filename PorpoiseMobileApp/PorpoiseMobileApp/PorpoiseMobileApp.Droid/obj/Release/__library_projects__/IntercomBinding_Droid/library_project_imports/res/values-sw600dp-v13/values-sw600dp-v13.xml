@@ -1,0 +1,3 @@
+<resources><bool name="intercom_is_two_pane">true</bool><item name="intercom_messenger_activity_layout" type="layout">
+        @layout/intercom_activity_messenger_two_pane
+    </item></resources>

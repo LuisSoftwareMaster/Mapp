@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{36E292AD-82F4-460F-8E7D-BB4B761EF934}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PorpoiseMobileApp/PorpoiseMobileApp.iOS/ActivityViewController.cs">
+    <Files>
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LogHoursViewController.cs" Line="299" Column="63" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/ActivityViewController.cs" Line="657" Column="3" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostItemCellController.cs" Line="133" Column="57" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/packages.config" Line="1" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/ProfileViewController.cs" Line="50" Column="3" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/ProfileViewModel.cs" Line="66" Column="38" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Client/PorpoiseWebApiClient.cs" Line="436" Column="3" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/Info.plist" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/HomeViewModel.cs" Line="7" Column="34" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/HomeViewController.cs" Line="167" Column="28" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/ViewModels/ActivityViewModel.cs" Line="62" Column="4" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/PostItemCellController.designer.cs" Line="63" Column="3" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp/Models/HourLog.cs" Line="240" Column="1" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/LinkerPleaseInclude.cs" Line="23" Column="22" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/Custom/PorpoiseButton.cs" Line="64" Column="26" />
+      <File FileName="PorpoiseMobileApp/PorpoiseMobileApp.iOS/Custom/WelldoneButton.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.PorpoiseMobileApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PorpoiseMobileApp.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

@@ -1,0 +1,563 @@
+using Android.App;
+using Android.Content;
+using Android.Graphics;
+using Android.Graphics.Drawables;
+using Android.OS;
+using Android.Runtime;
+using Android.Support.V4.Widget;
+using Android.Support.V7.App;
+using Android.Views;
+using Android.Views.InputMethods;
+using Android.Widget;
+using MvvmCross.Binding.Droid.BindingContext;
+using MvvmCross.Binding.Droid.Views;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Droid.Shared.Fragments;
+using MvvmCross.Droid.Support.V7.AppCompat;
+using MvvmCross.Droid.Views;
+using MvvmCross.Platform;
+using PorpoiseMobileApp.Droid.Helpers;
+using PorpoiseMobileApp.Droid.Interfaces;
+using PorpoiseMobileApp.Droid.MvvmCross;
+using PorpoiseMobileApp.Startup;
+using PorpoiseMobileApp.ViewModels;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using static PorpoiseMobileApp.Droid.Extensions;
+using D = PorpoiseMobileApp.Droid.Resource.Drawable;
+
+namespace PorpoiseMobileApp.Droid.Views
+{
+
+    [Activity(Theme = "@style/AppTheme")]
+    public class HomeView : MvvmAppCompatActivity<HomeViewModel>, IFragmentHost
+    {
+        //ActionBarDrawerToggle _drawerToggle;
+        //MvvmActionBarDrawerToggle _drawerListener;
+        //MvxListView _drawerListView;
+        private bool handlingDirty = false;
+        private int backStackCount;
+        //DrawerLayout _drawerLayout;
+        private Bundle _savedState;
+        private RelativeLayout menu;
+        private bool initialized;
+
+        #region Menu Buttons
+
+        ImageButton btnProfile;
+        ImageButton btnActivity;
+        ImageButton btnLogHour;
+        ImageButton btnSetting;
+        ImageButton btnSupport;
+
+        #endregion
+
+        public HomeView() : base()
+        {
+        }
+
+        public Dictionary<MenuItem, Type> ViewMappings { get; set; }
+
+        /*public void CloseDrawer()
+		{
+			_drawerLayout.CloseDrawer(this._drawerListView);
+		}*/
+
+        public override void OnBackPressed()
+        {
+            HandleDirty(() =>
+            {
+                var fragment = SupportFragmentManager.FindFragmentById(Resource.Id.content_frame);
+                if (fragment is LogHoursView)
+                {
+                    base.OnBackPressed();
+                }
+                else if (fragment is ProfileView)
+                {
+                    if (backStackCount == 0)
+                    {
+                        try
+                        {
+                            FragmentManager.PopBackStack();
+                        }
+                        catch                        {                        }
+                    }
+                    else
+                    {
+                        base.OnBackPressed();
+                    }
+                }
+                else if (fragment is AccountSettingsView)
+                {
+                    FragmentManager.PopBackStack();
+                }
+                else if (fragment is IHandleBack && ((IHandleBack)fragment).HandleBack())
+                {
+                    return;
+                }
+
+                if (backStackCount > 0)
+                {
+                    return;
+                }
+                else
+                {
+                    ViewModel.GoToHome();
+                }
+            });
+        }
+
+        public override void OnConfigurationChanged(Android.Content.Res.Configuration newConfig)
+        {
+            base.OnConfigurationChanged(newConfig);
+            //this._drawerToggle.OnConfigurationChanged(newConfig);
+        }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            //MenuInflater.Inflate(Resource.Menu.main, menu);
+            return base.OnCreateOptionsMenu(menu);
+        }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            //if (this._drawerToggle.OnOptionsItemSelected(item))
+            //return true;
+
+            return base.OnOptionsItemSelected(item);
+        }
+
+        public override bool OnPrepareOptionsMenu(IMenu menu)
+        {
+            //bool drawerOpen = this._drawerListener.IsDrawerOpen(this.menu);
+            ////when open don't show anything
+            //for (int i = 0; i < menu.Size(); i++)
+            //    menu.GetItem(i).SetVisible(!drawerOpen);
+
+            return base.OnPrepareOptionsMenu(menu);
+        }
+
+        protected override void OnCreate(Bundle bundle)
+        {
+            base.OnCreate(bundle);
+
+            this._savedState = bundle;
+            var listener = new BackStackListener<HomeViewModel>(this);
+            listener.BackStackChanged += (s, e) =>
+            {
+                this.backStackCount = e.BackStackCount;
+            };
+            this.SupportFragmentManager.AddOnBackStackChangedListener(listener);
+        }
+
+        private void LoadMenuButtons()
+        {
+            btnProfile = this.FindViewById<ImageButton>(Resource.Id.profile_button);
+            btnProfile.Click += (s, g) =>
+            {
+                Show(new MvxViewModelRequest(typeof(ProfileViewModel), null, null, null));
+            };
+
+            btnActivity = this.FindViewById<ImageButton>(Resource.Id.activity_button);
+            btnActivity.Click += (s, g) =>
+            {
+                Show(new MvxViewModelRequest(typeof(ActivityViewModel), null, null, null));
+            };
+
+            btnLogHour = this.FindViewById<ImageButton>(Resource.Id.loghours_button);
+            btnLogHour.Click += (s, g) =>
+            {
+                Show(new MvxViewModelRequest(typeof(LogHoursViewModel), null, null, null));
+            };
+
+            btnSetting = this.FindViewById<ImageButton>(Resource.Id.settings_button);
+            btnSetting.Click += (s, g) =>
+            {
+                Show(new MvxViewModelRequest(typeof(AccountSettingsViewModel), null, null, null));
+            };
+
+            btnSupport = this.FindViewById<ImageButton>(Resource.Id.support_button);
+            btnSupport.Click += (s, g) =>
+            {
+                Show(new MvxViewModelRequest(typeof(SupportViewModel), null, null, null));
+            };
+        }
+
+        protected override void OnPostCreate(Bundle savedInstanceState)
+        {
+            base.OnPostCreate(savedInstanceState);
+            //this._drawerToggle.SyncState();
+            var frags = SupportFragmentManager.Fragments;
+        }
+
+        protected override void OnViewModelSet()
+        {
+            base.OnViewModelSet();
+
+            SetContentView(Resource.Layout.HomeView);
+            var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+            toolbar.SetBackgroundColor(Resources.GetColor(Resource.Color.porpoise_turquoise));
+            SetSupportActionBar(toolbar);
+
+            // this.Window.SetStatusBarColor(Resources.GetColor(Resource.Color.porpoise_status_bar));
+            /*this.SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+			this.SupportActionBar.SetHomeButtonEnabled(true);
+			this.SupportActionBar.SetDisplayShowTitleEnabled(true);
+			this.SupportActionBar.SetDisplayUseLogoEnabled(true);
+			this.SupportActionBar.SetLogo(Resource.Drawable.ic_top_logo1);*/
+
+            /*
+            this._drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawerLayout);
+            _drawerListView = FindViewById<MvxListView>(Resource.Id.drawerListView);
+            _drawerToggle = new ActionBarDrawerToggle(this, _drawerLayout, Resource.String.OpenDrawerString, Resource.String.CloseDrawerString);
+
+            _drawerToggle.DrawerStateChanged += (s, e) =>
+            {
+                if (e.NewState == 2)
+                {
+                    InputMethodManager imm = (InputMethodManager)GetSystemService(Context.InputMethodService);
+                    imm.HideSoftInputFromWindow(this.drawer.WindowToken, HideSoftInputFlags.NotAlways);
+                }
+            };
+
+            _drawerLayout.SetDrawerListener(_drawerToggle);
+            var adapter = new MenuAdapter(this, (IMvxAndroidBindingContext)BindingContext);
+            _drawerListView.Adapter = adapter;
+
+			ViewModel.MenuItemClicked += (s, e) => CloseDrawer();
+
+			Bindings.Bind(_drawerListView).For(x => x.ItemsSource).To(x => x.MenuItems);
+			Bindings.Bind(_drawerListView).For(x => x.ItemClick).To(x => x.SelectMenuItemCommand);
+            */
+
+            Bindings.Apply();
+
+            var ioc = Mvx.Resolve<IIoCProvider>();
+
+            if (this.ViewMappings == null)
+            {
+                var menu_list = ioc.ResolveImplementors<IMvxFragmentView>()
+                    .Where(x => x.CustomAttributes.Any(y => y.AttributeType.IsAssignableFrom(typeof(MenuItemAttribute))))
+                    .Select(x => new { Type = x, MenuItem = ((MenuItemAttribute)x.GetCustomAttributes(typeof(MenuItemAttribute), true)[0]).MenuItem })
+                    .ToDictionary(x => x.MenuItem, y => y.Type);
+
+                this.ViewMappings = menu_list;
+            }
+
+            if (!initialized)
+            {
+                RegisterFragments();
+                initialized = true;
+            }
+
+            //tabs load method
+            LoadMenuButtons();
+
+            if (null == _savedState)
+            {
+                this.ViewModel.ShowMenuItem(this.ViewModel.MenuItems[0]);
+            }
+
+            //_drawerToggle.SyncState();
+        }
+
+        protected override void OnResume()
+        {
+            base.OnPostResume();
+            //Task.Delay(250).ContinueWith(x => HideSoftKeyboard(this._drawerLayout));
+        }
+
+        private void RegisterFragments()
+        {
+            var customPresenter = Mvx.Resolve<ICustomPresenter>();
+            foreach (var item in ViewModel.MenuItems.Where(x => x.Target != null))
+            {
+                if (ViewMappings.ContainsKey(item.MenuItem))
+                {
+                    customPresenter.Register(item.Target, this);
+                }
+            }
+        }
+
+        public bool Show(MvxViewModelRequest request)
+        {
+            try
+            {
+                IMvxFragmentView frag = null;
+                var title = string.Empty;
+                var menuItem = this.ViewModel.GetMenuItemForViewModelType(request.ViewModelType);
+                var current = this.SupportFragmentManager.FindFragmentById(Resource.Id.content_frame);
+
+                Action performChange = () =>
+                {
+                    if (ViewMappings.ContainsKey(menuItem.MenuItem))
+                    {
+                        var target = ViewMappings[menuItem.MenuItem];
+                        if (current != null && current.GetType() == target)
+                        {
+                            return;
+                        }
+                        if (frag == null)
+                        {
+                            frag = Mvx.Resolve(target) as IMvxFragmentView;
+                        }
+                    }
+
+                    if (frag != null)
+                    {
+                        var loaderService = Mvx.Resolve<IMvxViewModelLoader>();
+                        var viewModel = loaderService.LoadViewModel(request, null /* saved state */);
+
+                        frag.ViewModel = viewModel;
+
+                        var action = this.SupportFragmentManager.BeginTransaction();
+
+                        action.Replace(Resource.Id.content_frame, (Android.Support.V4.App.Fragment)frag, frag.GetType().Name);
+
+                        bool addToBackStack = false;
+
+                        if (frag is IFragment)
+                        {
+                            var fragmentHint = (IFragment)frag;
+                            if (fragmentHint.AddToBackStack)
+                            {
+                                addToBackStack = true;
+                            }
+                        }
+
+                        if (addToBackStack)
+                        {
+                            action = action.AddToBackStack(null);
+                        }
+
+                        action.Commit();
+
+                        SwitchSeletedTab(menuItem.MenuItem);
+                    }
+
+                    //for (int idx = 0; idx < this.ViewModel.MenuItems.Count; idx++)
+                    //{
+                    //    if (this.ViewModel.MenuItems[idx].MenuItem == menuItem.MenuItem)
+                    //    {
+                    //        //this._drawerListView.SetItemChecked(idx, true);
+                    //        break;
+                    //    }
+                    //}
+
+                    //this._drawerLayout.CloseDrawer(this._drawerListView);
+                };
+                HandleDirty(() =>
+                {
+                    performChange();
+                });
+
+                return true;
+            }
+            finally
+            {
+                //this._drawerLayout.CloseDrawer(this._drawerListView);
+            }
+        }
+
+        private MenuItem previous = MenuItem.Profile;
+        private void SwitchSeletedTab(MenuItem target)
+        {
+            //normal
+            switch (previous)
+            {
+                case MenuItem.Profile:
+                    btnProfile.SetBackgroundResource(D.tabs_profile_icon_new);
+                    break;
+                case MenuItem.LogHours:
+                    btnLogHour.SetBackgroundResource(D.tabs_loghours_icon_new);
+                    break;
+                case MenuItem.Activity:
+                    btnActivity.SetBackgroundResource(D.tabs_activity_icon_new);
+                    break;
+                case MenuItem.AccountSettings:
+                    btnSetting.SetBackgroundResource(D.tabs_settings_icon_new);
+                    break;
+                case MenuItem.Intercom:
+                    btnSupport.SetBackgroundResource(D.tabs_support_icon_new);
+                    break;
+            }
+
+            //selected
+            switch (target)
+            {
+                case MenuItem.Profile:
+                    btnProfile.SetBackgroundResource(D.tabs_profile_icon_new_selected);
+                    break;
+                case MenuItem.LogHours:
+                    btnLogHour.SetBackgroundResource(D.tabs_loghours_icon_new_selected);
+                    break;
+                case MenuItem.Activity:
+                    btnActivity.SetBackgroundResource(D.tabs_activity_icon_new_selected);
+                    break;
+                case MenuItem.AccountSettings:
+                    btnSetting.SetBackgroundResource(D.tabs_settings_icon_new_selected);
+                    break;
+                case MenuItem.Intercom:
+                    btnSupport.SetBackgroundResource(D.tabs_support_icon_new_selected);
+                    break;
+            }
+
+            previous = target;
+        }
+
+        public void ShowKeyboard(View target, MvvmCross.KeyboardAdjustment adjust = MvvmCross.KeyboardAdjustment.Pan)
+        {
+            var flags = SoftInput.StateVisible;
+            switch (adjust)
+            {
+                case KeyboardAdjustment.Pan:
+                    flags |= SoftInput.AdjustPan;
+                    break;
+
+                case KeyboardAdjustment.Resize:
+                    flags |= SoftInput.AdjustResize;
+                    break;
+
+                case KeyboardAdjustment.None:
+                    flags |= SoftInput.AdjustNothing;
+                    break;
+            }
+            this.Window.SetSoftInputMode(flags);
+            ShowSoftKeyboard(target);
+        }
+
+
+        private void HandleDirty(Action proceed)
+        {
+            var current = this.SupportFragmentManager.FindFragmentById(Resource.Id.content_frame);
+
+            if (current != null && current is IDirty && !handlingDirty)
+            {
+                var dirty = current as IDirty;
+                if (dirty.IsDirty)
+                {
+                    handlingDirty = true;
+                    this.Alert(AlertType.Confirm, PorpoiseMobileApp.Resource.AreYouSure, PorpoiseMobileApp.Resource.UnsavedChanges, whichButton =>
+                    {
+                        try
+                        {
+                            if (whichButton == DialogButtonType.Positive)
+                            {
+                                proceed();
+                            }
+                        }
+                        finally
+                        {
+                            handlingDirty = false;
+                        }
+                    }, Resource.Style.PorpoiseDialogTheme);
+                }
+                else
+                {
+                    proceed();
+                }
+            }
+            else
+            {
+                proceed();
+            }
+        }
+
+        private class MenuAdapter : MvxAdapter
+        {
+            private HomeView activity;
+
+            public MenuAdapter(HomeView context, IMvxAndroidBindingContext bindingContext)
+                : base(context, bindingContext)
+            {
+                this.activity = context;
+            }
+
+            public override int ViewTypeCount
+            {
+                get
+                {
+                    return 1;
+                }
+            }
+
+            public override int GetItemViewType(int position)
+            {
+                return 0;
+            }
+
+            protected override View GetBindableView(View convertView, object dataContext, int templateId)
+            {
+                templateId = Resource.Layout.menu_item;
+                var view = base.GetBindableView(convertView, dataContext, templateId);
+                var text = view.FindViewById<TextView>(Resource.Id.menu_text);
+
+                //Drawable drawable = null;
+
+                //var vm = dataContext as MenuItemViewModel;
+                //switch (vm.MenuItem)
+                //{
+                //    case MenuItem.Activity:
+                //        drawable = activity.Resources.GetDrawable(Resource.Drawable.ic_activity_icon);
+                //        break;
+                //    case MenuItem.Profile:
+                //        drawable = activity.Resources.GetDrawable(Resource.Drawable.ic_profile_icon);
+                //        break;
+                //    case MenuItem.LogHours:
+                //        drawable = activity.Resources.GetDrawable(Resource.Drawable.ic_loghours_icon);
+                //        break;
+                //    case MenuItem.AccountSettings:
+                //        drawable = activity.Resources.GetDrawable(Resource.Drawable.ic_settings_icon);
+                //        break;
+                //    case MenuItem.Intercom:
+                //        drawable = activity.Resources.GetDrawable(Resource.Drawable.ic_support_icon);
+                //        break;
+                //}
+                //text.SetCompoundDrawablesRelativeWithIntrinsicBounds(drawable, null, null, null);
+                return view;
+            }
+        }
+
+    }
+
+
+
+    public class BackStackEventArgs : EventArgs
+    {
+        public int BackStackCount { get; set; }
+    }
+
+    internal class BackStackListener<TViewModel> : Java.Lang.Object, Android.Support.V4.App.FragmentManager.IOnBackStackChangedListener where TViewModel : MvxViewModel
+    {
+        private readonly Activity activity;
+
+        public BackStackListener(Activity activity)
+        {
+            this.activity = activity;
+        }
+
+        public void OnBackStackChanged()
+        {
+            if (BackStackChanged != null)
+            {
+                if (activity is Android.Support.V4.App.FragmentActivity)
+                {
+                    var args = new BackStackEventArgs { BackStackCount = ((Android.Support.V4.App.FragmentActivity)activity).SupportFragmentManager.BackStackEntryCount };
+                    BackStackChanged(activity, args);
+                }
+                else if (activity is Android.Support.V7.App.ActionBarActivity)
+                {
+                    var args = new BackStackEventArgs { BackStackCount = ((Android.Support.V7.App.ActionBarActivity)activity).SupportFragmentManager.BackStackEntryCount };
+                    BackStackChanged(activity, args);
+                }
+            }
+        }
+
+        public event EventHandler<BackStackEventArgs> BackStackChanged;
+    }
+
+
+}

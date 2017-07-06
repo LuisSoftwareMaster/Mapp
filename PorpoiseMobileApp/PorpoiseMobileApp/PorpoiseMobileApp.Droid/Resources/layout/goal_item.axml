@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="110dp"
+    android:layout_height="match_parent"
+    android:id="@+id/charts_parent_container"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:layout_margin="3dp"
+    android:background="@color/white"
+    android:padding="5dp">
+    <LinearLayout
+        android:id="@+id/chart_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:background="@color/white" />
+    <LinearLayout
+        android:id="@+id/goal_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/goal_name"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textSize="10sp"
+            android:textAllCaps="true"
+            android:textColor="@color/porpoise_headers_grey"
+            android:layout_gravity="top"
+            local:MvxBind="Text Name"
+            android:gravity="center"
+            android:maxLines="3" />
+        <TextView
+            android:id="@+id/goal_hours"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/porpoise_pink"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:maxLines="2"
+            local:MvxBind="Text Hours, Converter=ConcatenateHours" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,1 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"><solid android:color="@color/intercom_image_preview_grey" /><corners android:radius="@dimen/intercom_image_rounded_corners" /></shape>

@@ -1,0 +1,1 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android"><item><shape><gradient android:angle="270" android:endColor="@color/intercom_black" android:startColor="@color/intercom_full_transparent_full_black" android:type="linear" /></shape></item></selector>

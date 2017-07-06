@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3CB9024B-C77F-4B1D-9E32-C0E9ECFDCD4A}</ProjectGuid>
+    <ProjectTypeGuids>{8FFB629D-F513-41CE-95D2-7ECE97B6EEEC};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>UzysAssetsPickerControllerBinding</RootNamespace>
+    <AssemblyName>UzysAssetsPickerControllerBinding</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingCoreSource Include="Structs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Contents.json" />
+    <BundleResource Include="Resources\checker%402x.png" />
+    <BundleResource Include="Resources\uzysAP_ico_arrow_upload_album_d%402x.png" />
+    <BundleResource Include="Resources\uzysAP_ico_assets_video%402x.png" />
+    <BundleResource Include="Resources\uzysAP_ico_checkMark%402x.png" />
+    <BundleResource Include="Resources\uzysAP_ico_no_access%402x.png" />
+    <BundleResource Include="Resources\uzysAP_ico_no_image%402x.png" />
+    <BundleResource Include="Resources\uzysAP_ico_no_video%402x.png" />
+    <BundleResource Include="Resources\uzysAP_ico_photo_thumb_check%402x.png" />
+    <BundleResource Include="Resources\uzysAP_ico_photo_thumb_uncheck%402x.png" />
+    <BundleResource Include="Resources\uzysAP_ico_upload_camera%402x.png" />
+    <BundleResource Include="Resources\uzysAP_ico_upload_done%402x.png" />
+    <BundleResource Include="Resources\uzysAP_navi_icon_close%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="..\..\libUzysAssetsPickerController.a">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+    <NativeReference Include="..\..\libUzysAssetsPickerController-arm64.a">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+    <NativeReference Include="..\..\libUzysAssetsPickerController-armv7.a">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+    <NativeReference Include="..\..\libUzysAssetsPickerController-i386.a">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
+</Project>

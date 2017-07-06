@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--colorPrimary – The color of the app bar.
+colorPrimaryDark – The color of the status bar and contextual app bars; this is normally a dark version of colorPrimary.
+colorAccent – The color of UI controls such as check boxes, radio buttons, and edit text boxes.
+windowBackground – The color of the screen background.
+textColorPrimary – The color of UI text in the app bar.
+statusBarColor – The color of the status bar.
+navigationBarColor – The color of the navigation bar.-->
+
+<resources>
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:actionBarStyle">@style/Porpoise.Actionbar.V7</item>
+    <item name="android:alertDialogTheme">@style/PorpoiseDialogTheme</item>
+    <item name="android:buttonStyle">@style/Porpoise.Widget.TransparentButton</item>
+    <item name="android:colorAccent">@color/porpoise_pink</item>
+    <item name="android:colorPrimary">@color/porpoise_turquoise</item>
+    <item name="android:colorPrimaryDark">@color/porpoise_turquoise_dark</item>
+    <item name="android:editTextStyle">@style/PorpoiseEditText</item>
+    <item name="android:navigationBarColor">@color/white</item>
+    <item name="android:statusBarColor">@color/porpoise_status_bar</item>
+    <item name="android:textColorPrimary">@color/white</item>
+    <item name="android:textCursorDrawable">@null</item>
+    <item name="android:windowBackground">@color/white</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="spinnerStyle">@style/Porpoise.AppSpinner</item>
+    <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    <item name="vpiCirclePageIndicatorStyle">@style/CustomCirclePageIndicator</item>
+    <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    <item name="vpiTabTextStyle">@style/CustomTabPageIndicator.Text</item>
+    <item name="vpiTitlePageIndicatorStyle">@style/CustomTitlePageIndicator</item>
+  </style>
+
+
+  <style name="Porpoise.Splash" parent ="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/screen</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:statusBarColor">@color/porpoise_status_bar</item>
+<<<<<<< local
+  </style>
+
+  <style name="Porpoise.Widget.WhiteButton" parent="android:Widget.Button">
+    <item name="android:background">@drawable/white_square_button</item>
+    <item name="android:paddingTop">10dp</item>
+    <item name="android:paddingBottom">10dp</item>
+    <item name="android:paddingLeft">15dp</item>
+    <item name="android:paddingRight">15dp</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:gravity">center_vertical|center_horizontal</item>
+    <item name="android:minHeight">?android:attr/actionBarSize</item>
+    <item name="android:textSize">24sp</item>
+    <item name="android:textAllCaps">true</item>
+  </style>
+
+  <style name="Porpoise.Widget.TurquoiseButton" parent="android:Widget.Button">
+    <item name="android:background">@drawable/square_button</item>
+    <item name="android:paddingTop">10dp</item>
+    <item name="android:paddingBottom">10dp</item>
+    <item name="android:paddingLeft">15dp</item>
+    <item name="android:paddingRight">15dp</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:gravity">center_vertical|center_horizontal</item>
+    <item name="android:minHeight">?android:attr/actionBarSize</item>
+    <item name="android:textSize">24sp</item>
+    <item name="android:textAllCaps">true</item>
+  </style>
+=======
+	</style>
+	
+		<style name="Porpoise.Widget.TransparentButton" parent="android:Widget.Button">
+			<item name="android:background">@drawable/transparent_square_button</item>
+			<item name="android:paddingTop">10dp</item>
+			<item name="android:paddingBottom">10dp</item>
+			<item name="android:paddingLeft">15dp</item>
+			<item name="android:paddingRight">15dp</item>
+			<item name="android:textColor">@color/white</item>
+			<item name="android:gravity">center_vertical|center_horizontal</item>
+			<item name="android:minHeight">?android:attr/actionBarSize</item>
+			<item name="android:textSize">24sp</item>
+			<item name="android:textAllCaps">true</item>
+		</style>
+	
+	<style name="Porpoise.Widget.TurquoiseButton" parent="android:Widget.Button">
+		<item name="android:background">@drawable/square_button</item>
+		<item name="android:paddingTop">10dp</item>
+		<item name="android:paddingBottom">10dp</item>
+		<item name="android:paddingLeft">15dp</item>
+		<item name="android:paddingRight">15dp</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:gravity">center_vertical|center_horizontal</item>
+		<item name="android:minHeight">?android:attr/actionBarSize</item>
+		<item name="android:textSize">24sp</item>
+		<item name="android:textAllCaps">true</item>
+	</style>
+>>>>>>> other
+
+  <style name="Porpoise.Widget.GreyBorderedButton" parent="android:Widget.Button">
+    <item name="android:background">@drawable/grey_border_button</item>
+    <item name="android:paddingTop">5dp</item>
+    <item name="android:paddingBottom">5dp</item>
+    <item name="android:paddingLeft">5dp</item>
+    <item name="android:paddingRight">5dp</item>
+    <item name="android:textColor">@color/porpoise_headers_grey</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:textSize">8sp</item>
+    <item name="android:minHeight">?android:attr/actionBarSize</item>
+  </style>
+
+  <style name="PorpoiseDialogTheme">
+    <item name="android:textColorPrimary">@color/porpoise_turquoise</item>
+    <item name="android:textColor">@color/porpoise_turquoise</item>
+    <item name="android:windowFrame">@null</item>
+    <item name="android:textSize">12sp</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    <item name="android:windowBackground">@color/white</item>
+    <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    <item name="android:colorBackgroundCacheHint">@null</item>
+  </style>
+
+  <style
+		name="Widget.Porpoise.ProgressBar.Turquoise"
+		parent="@android:style/Widget.Holo.ProgressBar">
+  </style>
+  <style name="Widget.Porpoise.ProgressBar" parent="android:Widget.ProgressBar">
+    <item name="android:indeterminateDrawable">@drawable/porpoise_spinner</item>
+  </style>
+
+  <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+    <item name="spinBars">true</item>
+    <item name="color">@color/white</item>
+  </style>
+
+  <style name="Porpoise.AppSpinner" parent="Widget.AppCompat.Spinner">
+  </style>
+
+  <style name="Porpoise.Actionbar" parent="@android:style/Widget.Holo.ActionBar.Solid">
+    <item name="android:background">@color/porpoise_status_bar</item>
+  </style>
+
+<<<<<<< local
+  <style name="Porpoise.Actionbar.V7" parent="@style/Widget.AppCompat.ActionBar">
+    <item name="background">@color/porpoise_status_bar</item>
+    <item name="logo">@drawable/logo_small2</item>
+    <item name="displayOptions">useLogo|showHome</item>
+    <item name="titleTextStyle">@style/AppTheme.ActionBar.Title</item>
+    <item name="colorControlNormal">@color/white</item>
+  </style>
+  <style name="AppTheme.ActionBar.Title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/white</item>
+  </style>
+  <style name="CustomTitlePageIndicator">
+    <item name="android:background">#18FF0000</item>
+    <item name="footerColor">#FFAA2222</item>
+    <item name="footerLineHeight">1dp</item>
+    <item name="footerIndicatorHeight">3dp</item>
+    <item name="footerIndicatorStyle">underline</item>
+    <item name="textColor">#AA000000</item>
+    <item name="selectedColor">#FF000000</item>
+    <item name="selectedBold">true</item>
+  </style>
+=======
+	<style name="Porpoise.Actionbar.V7" parent="@style/Widget.AppCompat.ActionBar">
+		<item name="background">@color/porpoise_status_bar</item>
+		<item name="logo">@drawable/ic_top_logo1</item>
+		<item name="displayOptions">useLogo|showHome</item>
+    <item name="titleTextStyle">@style/AppTheme.ActionBar.Title</item>
+    <item name="colorControlNormal">@color/white</item>
+	</style>
+>>>>>>> other
+
+<<<<<<< local
+  <style name="CustomCirclePageIndicator">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="fillColor">#FFFFFFFF</item>
+    <item name="strokeColor">#FF000000</item>
+    <item name="strokeWidth">1dp</item>
+    <item name="radius">10dp</item>
+    <item name="centered">true</item>
+  </style>
+=======
+
+  <style name="AppTheme.ActionBar.Title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/white</item>
+  </style>
+  
+	<style name="CustomTitlePageIndicator">
+		<item name="android:background">#18FF0000</item>
+		<item name="footerColor">#FFAA2222</item>
+		<item name="footerLineHeight">1dp</item>
+		<item name="footerIndicatorHeight">3dp</item>
+		<item name="footerIndicatorStyle">underline</item>
+		<item name="textColor">#AA000000</item>
+		<item name="selectedColor">#FF000000</item>
+		<item name="selectedBold">true</item>
+	</style>
+>>>>>>> other
+
+  <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+    <item name="android:background">@drawable/custom_tab_indicator</item>
+  </style>
+
+  <style name="CustomTabPageIndicator.Text" parent="Widget.TabPageIndicator.Text">
+    <item name="android:textColor">#FF555555</item>
+  </style>
+
+  <style name="TextInputLayout.Error" parent="android:TextAppearance.Small">
+    <item name="android:textColor">@color/porpoise_errorRed_light</item>
+    <item name="android:textSize">12sp</item>
+  </style>
+
+
+  <style name="TextInputLayout.Hint" parent="android:TextAppearance.Medium">
+    <item name="android:textSize">14sp</item>
+  </style>
+
+  <style name="HintTheme">
+    <item name="android:textColorHint">@color/white</item>
+  </style>
+
+  <style name="PorpoiseEditText" parent="android:Widget.EditText">
+    <item name="android:background">@drawable/apptheme_edit_text_holo_light</item>
+    <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ProgressBarAppTheme" parent="android:Widget.ProgressBar.Horizontal">
+    <item name="android:progressDrawable">@drawable/apptheme_progress_horizontal_holo_light</item>
+    <item name="android:indeterminateDrawable">@drawable/apptheme_progress_indeterminate_horizontal_holo_light</item>
+    <item name="android:minHeight">16dip</item>
+    <item name="android:maxHeight">16dip</item>
+  </style>
+  <style name="DatePickerDialogTheme" parent="android:Theme.Material.Light.Dialog">
+    <item name="android:textColorPrimary">@color/porpoise_turquoise</item>
+    <item name="android:colorAccent">@color/porpoise_pink</item>
+
+    <!-- No need to override 'datePickerStyle' -->
+    <!-- <item name="android:datePickerStyle">@style/MyDatePickerStyle</item> -->
+  </style>
+</resources>

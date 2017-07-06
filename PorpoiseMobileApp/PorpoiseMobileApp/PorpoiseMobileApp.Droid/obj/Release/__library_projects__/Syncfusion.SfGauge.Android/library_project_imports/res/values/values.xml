@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Work/SVN/14.2.0.26/Android/SfGauge.Android/Src/Syncfusion.SfGauge.Android/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="pading_bottom">4dp</dimen>
+    <dimen name="pading_top">6dp</dimen>
+</resources>

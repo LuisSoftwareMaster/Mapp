@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="white">#ffffff</color>
+  <color name="porpoise_turquoise">#41c1c9</color>
+  <color name="MappBackground">#44D9E6</color>
+  <color name="porpoise_turquoise_with_transparency">#40c0c9</color>
+  <color name="porpoise_turquoise_light">#74F4FC</color>
+  <color name="dark_grey">#ACACAC</color>
+  <color name="porpoise_turquoise_dark">#22a5a8</color>
+  <color name="log_hours_background">#43c2c9</color>
+  <color name="porpoise_status_bar">#22a5a8</color>
+  <color name="porpoise_pink">#ef5285</color>
+  <color name="porpoise_pink_light">#FF85B8</color>
+  <color name="porpoise_pink_dark">#BC1F52</color>
+  <color name="porpoise_headers_grey">#d3d3d3</color>
+  <color name="porpoise_errorRed_bold">#EF4A4A</color>
+  <color name="porpoise_errorRed_light">#FC8585</color>
+  <color name="side_bar_background">#FEFEFE</color>
+  <color name="side_bar_text">#FF7C919E</color>
+  <color name="default_background">#FEFEFE</color>
+  <color name="info_background">#EEEDED</color>
+	<color name="post_photo_header">#FFCCCC</color>
+  <color name="red">#FFFF0000</color>
+	<color name="post_orange">#e16421</color>
+	<color name="post_gray">#6d6d6d</color>
+  <color name="green">#FF00FF00</color>
+  <color name="blue">#FF0000FF</color>
+  <color name="black">#FF000000</color>
+  <color name="sw_1_back">#FFC8E4C9</color>
+  <color name="sw_1_highlight">#FF296834</color>
+  <color name="sw_1_normal">#FF4CAE4E</color>
+
+  <color name="sw_2_back">#FFFFF3E1</color>
+  <color name="sw_2_highlight">#FFF8981F</color>
+  <color name="sw_2_normal">#FFDDCEBA</color>
+
+  <color name="sw_3_back">#FFCFD8DB</color>
+  <color name="sw_3_highlight">#FF546E7A</color>
+  <color name="sw_3_normal">#FF788F9B</color>
+
+  <color name="sw_4_back">#FFE1F2F7</color>
+  <color name="sw_4_highlight">#FF0497A7</color>
+  <color name="sw_4_normal">#FF5EC8DC</color>
+
+  <color name="sw_text">#FF243137</color>
+
+  <item name="disabled_alpha_material_light" format="float" type="dimen">0.26</item>
+
+  <color name="apptheme_color">#e8eef0</color>
+  <color name="dark_teal">#004D40</color>
+</resources>

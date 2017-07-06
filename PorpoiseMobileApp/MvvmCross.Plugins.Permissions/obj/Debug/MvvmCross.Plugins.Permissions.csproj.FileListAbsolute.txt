@@ -1,0 +1,150 @@
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.pdb
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Core.dll
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.dll
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.dll
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.pdb
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.xml
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.pdb
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.xml
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.pdb
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll.mdb
+C:/dev/ONGOZAH/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll.mdb
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.pdb
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Core.dll
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.dll
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.dll
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.pdb
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.xml
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.pdb
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.xml
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.csprojResolveAssemblyReference.cache
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.pdb
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll.mdb
+D:/Clients/Porpoise/PorpoiseMobile/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll.mdb
+D:/Clients/Porpoise/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll
+D:/Clients/Porpoise/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.pdb
+D:/Clients/Porpoise/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Core.dll
+D:/Clients/Porpoise/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll
+D:/Clients/Porpoise/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.dll
+D:/Clients/Porpoise/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.dll
+D:/Clients/Porpoise/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.xml
+D:/Clients/Porpoise/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.xml
+D:/Clients/Porpoise/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.csprojResolveAssemblyReference.cache
+D:/Clients/Porpoise/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll
+D:/Clients/Porpoise/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.pdb
+D:/Clients/Porpoise/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll.mdb
+D:/Clients/Porpoise/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll.mdb
+D:/Repos/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll
+D:/Repos/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.pdb
+D:/Repos/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Core.dll
+D:/Repos/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll
+D:/Repos/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.dll
+D:/Repos/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.dll
+D:/Repos/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.xml
+D:/Repos/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.xml
+D:/Repos/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll
+D:/Repos/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.pdb
+D:/Repos/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll.mdb
+D:/Repos/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll.mdb
+C:/Users/negre/Documents/BackUp/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll
+C:/Users/negre/Documents/BackUp/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.pdb
+C:/Users/negre/Documents/BackUp/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Core.dll
+C:/Users/negre/Documents/BackUp/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll
+C:/Users/negre/Documents/BackUp/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.dll
+C:/Users/negre/Documents/BackUp/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.dll
+C:/Users/negre/Documents/BackUp/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.xml
+C:/Users/negre/Documents/BackUp/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.xml
+C:/Users/negre/Documents/BackUp/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.csprojResolveAssemblyReference.cache
+C:/Users/negre/Documents/BackUp/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll
+C:/Users/negre/Documents/BackUp/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.pdb
+C:/Users/negre/Documents/BackUp/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll.mdb
+C:/Users/negre/Documents/BackUp/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll.mdb
+/Users/luis/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll
+/Users/luis/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll.mdb
+/Users/luis/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Core.dll
+/Users/luis/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll
+/Users/luis/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.dll
+/Users/luis/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.dll
+/Users/luis/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll.mdb
+/Users/luis/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.xml
+/Users/luis/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.xml
+/Users/luis/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll
+/Users/luis/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll.mdb
+/Users/luis/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.csprojResolveAssemblyReference.cache
+C:/Users/negre/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll
+C:/Users/negre/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.pdb
+C:/Users/negre/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Core.dll
+C:/Users/negre/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll
+C:/Users/negre/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.dll
+C:/Users/negre/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.dll
+C:/Users/negre/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.xml
+C:/Users/negre/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.xml
+C:/Users/negre/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll
+C:/Users/negre/Documents/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.pdb
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Core.dll
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.dll
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.dll
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll.mdb
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.xml
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.xml
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.csprojResolveAssemblyReference.cache
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.pdb
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.csproj.CoreCompileInputs.cache
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.pdb
+/Users/luis/Documents/PorpoiseMobileLuis/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll
+/Users/luis/Documents/PorpoiseMobileLuis/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.pdb
+/Users/luis/Documents/PorpoiseMobileLuis/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Core.dll
+/Users/luis/Documents/PorpoiseMobileLuis/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll
+/Users/luis/Documents/PorpoiseMobileLuis/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.dll
+/Users/luis/Documents/PorpoiseMobileLuis/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.dll
+/Users/luis/Documents/PorpoiseMobileLuis/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll.mdb
+/Users/luis/Documents/PorpoiseMobileLuis/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.xml
+/Users/luis/Documents/PorpoiseMobileLuis/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.xml
+/Users/luis/Documents/PorpoiseMobileLuis/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.csprojResolveAssemblyReference.cache
+/Users/luis/Documents/PorpoiseMobileLuis/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.csproj.CoreCompileInputs.cache
+/Users/luis/Documents/PorpoiseMobileLuis/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll
+/Users/luis/Documents/PorpoiseMobileLuis/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.pdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Plugins.Permissions.pdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Core.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/MvvmCross.Platform.dll.mdb
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/bin/Debug/Plugin.Permissions.Abstractions.xml
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.csprojResolveAssemblyReference.cache
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.csproj.CoreCompileInputs.cache
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.dll
+/Users/luis/Documents/MapJOy/PorpoiseMobileApp/MvvmCross.Plugins.Permissions/obj/Debug/MvvmCross.Plugins.Permissions.pdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\MvvmCross.Plugins.Permissions.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\MvvmCross.Plugins.Permissions.pdb
+C:\Users\negre\Google Drive\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\MvvmCross.Core.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\MvvmCross.Platform.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\Plugin.Permissions.Abstractions.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\Plugin.Permissions.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\Plugin.Permissions.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\Plugin.Permissions.Abstractions.xml
+C:\Users\negre\Google Drive\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\obj\Debug\MvvmCross.Plugins.Permissions.csprojResolveAssemblyReference.cache
+C:\Users\negre\Google Drive\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\obj\Debug\MvvmCross.Plugins.Permissions.dll
+C:\Users\negre\Google Drive\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\obj\Debug\MvvmCross.Plugins.Permissions.pdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\MvvmCross.Plugins.Permissions.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\MvvmCross.Plugins.Permissions.pdb
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\MvvmCross.Core.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\MvvmCross.Platform.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\Plugin.Permissions.Abstractions.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\Plugin.Permissions.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\Plugin.Permissions.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\bin\Debug\Plugin.Permissions.Abstractions.xml
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\obj\Debug\MvvmCross.Plugins.Permissions.csprojResolveAssemblyReference.cache
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\obj\Debug\MvvmCross.Plugins.Permissions.dll
+C:\Users\negre\Documents\Visual Studio 2017\Projects\PorpoiseMobileApp\MvvmCross.Plugins.Permissions\obj\Debug\MvvmCross.Plugins.Permissions.pdb

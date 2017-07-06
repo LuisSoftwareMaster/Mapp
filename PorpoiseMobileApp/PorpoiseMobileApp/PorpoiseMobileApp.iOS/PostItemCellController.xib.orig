@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+
+    </dependencies>
+        <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivityViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+                  <tableViewCell contentMode="scaleAspectFit" selectionStyle="none" indentationWidth="10" rowHeight="523" id="cxk-wN-pdQ" customClass="PostItemCellController">
+            <rect key="frame" x="0.0" y="0.0" width="392" height="523"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" tableViewCell="cxk-wN-pdQ" id="YTl-1W-gDM">
+      
+            <rect key="frame" x="0.0" y="0.0" width="392" height="522"/>
+
+            <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dp4-Ct-sn1">
+
+                    <rect key="frame" x="0.0" y="54" width="392" height="351"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="351" id="bga-uW-6JD" relation="lessThanOrEqual"/>
+                            <constraint id="1236" firstAttribute="width" constant="392"/>
+                            <constraint id="2138" firstItem="dp4-Ct-sn1" firstAttribute="height" constant="351"/>
+                        </constraints>
+
+                    </imageView>
+
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYL-Sc-6Et" userLabel="hidden_lblHours" misplaced="YES">
+
+                    <rect key="frame" x="87" y="8" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    </label>
+
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="630">
+                       <rect key="frame" x="8" y="13" width="33" height="33"/>
+                         <constraints>
+                           
+                            <constraint id="1206" firstAttribute="width" constant="33"/>
+                           <constraint id="1207" firstAttribute="height" constant="33"/>
+                         </constraints>
+                     </imageView>
+
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="givenWelldones.png" translatesAutoresizingMaskIntoConstraints="NO" id="1010">
+                       <rect key="frame" x="8" y="447" width="15" height="15"/>
+                         <constraints>
+                           <constraint id="1957" firstAttribute="width" constant="15"/>
+                        <constraint id="1958" firstAttribute="height" constant="15"/>
+                         </constraints>
+                     </imageView>
+
+
+                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sally Legend" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5NU-Du-U9Y">
+                      <rect key="frame" x="49" y="19" width="247" height="21"/>
+                         <constraints>
+                            <constraint firstAttribute="width" constant="247" id="wpY-vQ-TaA"/>
+                         </constraints>
+
+                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
+                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                         <nil key="highlightedColor"/>
+                     </label>
+
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60Z-WM-sVB">
+                        <rect key="frame" x="366" y="19" width="18" height="20"/>
+                         <constraints>
+                            <constraint firstAttribute="height" constant="20" id="USO-Ds-hMv"/>
+                           <constraint firstAttribute="width" constant="18" id="qPE-ri-RlN"/>
+                         </constraints>
+                         <state key="normal" backgroundImage="pencil.png"/>
+                </button>
+
+                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0uu-Rd-5Zk">
+                        <rect key="frame" x="304" y="18" width="42" height="21"/>
+                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                         <nil key="textColor"/>
+                         <nil key="highlightedColor"/>
+                     </label>
+
+                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="863" customClass="WelldoneButton">
+                        <rect key="frame" x="368" y="414" width="16" height="16"/>
+                        <state key="normal" backgroundImage="wellDoneGray.png"/>
+                        <constraints>
+                            <constraint id="1851" firstAttribute="width" constant="16"/>
+                            <constraint id="1852" firstAttribute="height" constant="16"/>
+                        </constraints>
+                    </button>
+
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Be the first to give a Well Done!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1009">
+                        <rect key="frame" x="24" y="447" width="161" height="14"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <constraints>
+                            <constraint id="2042" firstItem="1009" firstAttribute="height" constant="14"/>
+                        </constraints>
+                    </label>
+
+                    <view autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="left" translatesAutoresizingMaskIntoConstraints="NO" id="H7w-wJ-LIl">
+                        <rect key="frame" x="0.0" y="438" width="392" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint id="1844" firstAttribute="width" constant="392"/>
+                            <constraint id="1845" firstAttribute="height" constant="1"/>
+                        </constraints>
+                    </view>
+
+                                       <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" placeholderIntrinsicWidth="218" placeholderIntrinsicHeight="16" text="{0} to {1}!" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="none" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AXN-0N-avy">
+                       <rect key="frame" x="8" y="414" width="248" height="16"/>
+                         <accessibility key="accessibilityConfiguration">
+                             <accessibilityTraits key="traits" none="YES"/>
+                         </accessibility>
+                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="12"/>
+                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                         <nil key="highlightedColor"/>
+                        <constraints>
+                            <constraint id="1945" firstAttribute="width" constant="248"/>
+                           <constraint id="1947" firstItem="AXN-0N-avy" firstAttribute="height" constant="16" relation="greaterThanOrEqual"/>
+                       </constraints>
+                     </label>
+
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="179" placeholderIntrinsicHeight="10" text="June 3rd, 2016" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6i-hH-cLy">
+                        <rect key="frame" x="205" y="500" width="179" height="12"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="10.039999999999999"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <constraints>
+                            <constraint id="2099" firstItem="a6i-hH-cLy" firstAttribute="height" constant="12"/>
+                        </constraints>
+                    </label>
+
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="1746" translatesAutoresizingMaskIntoConstraints="NO" text="HI" scrollEnabled="NO" placeholderIntrinsicWidth="376" placeholderIntrinsicHeight="30">
+                        <rect key="frame" x="8" y="470" width="376" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="AvenirLT-Book" family="Avenir LT 45 Book" pointSize="11"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <constraints>
+                            <constraint id="1968" firstAttribute="width" constant="376"/>
+                            <constraint id="1970" firstItem="1746" firstAttribute="height" constant="30" relation="greaterThanOrEqual"/>
+                        </constraints>
+                    </textView>
+
+                </subviews>
+                <constraints>
+
+                    <constraint firstItem="6yk-e0-lUM" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leadingMargin" constant="-67" id="iCF-M8-0Kl"/>
+                    <constraint firstItem="wYL-Sc-6Et" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leadingMargin" constant="79" id="qgT-AC-c4F"/>
+                    <constraint firstItem="6yk-e0-lUM" firstAttribute="top" secondItem="YTl-1W-gDM" secondAttribute="topMargin" constant="63" id="soV-e2-fex"/>
+                    <constraint firstItem="wYL-Sc-6Et" firstAttribute="top" secondItem="YTl-1W-gDM" secondAttribute="topMargin" id="xfn-te-CTn"/>
+                    <constraint id="1204" firstItem="630" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leading" constant="8"/>
+                    <constraint id="1205" firstItem="630" firstAttribute="top" secondItem="YTl-1W-gDM" secondAttribute="top" constant="13"/>
+                    <constraint id="1234" firstItem="YTl-1W-gDM" firstAttribute="trailing" secondItem="dp4-Ct-sn1" secondAttribute="trailing"/>
+                    <constraint id="1235" firstItem="dp4-Ct-sn1" firstAttribute="top" secondItem="YTl-1W-gDM" secondAttribute="top" constant="54"/>
+                    <constraint id="1237" firstItem="YTl-1W-gDM" firstAttribute="trailing" secondItem="60Z-WM-sVB" secondAttribute="trailing" constant="8"/>
+                    <constraint id="1238" firstItem="60Z-WM-sVB" firstAttribute="top" secondItem="YTl-1W-gDM" secondAttribute="top" constant="19"/>
+                    <constraint id="1239" firstItem="YTl-1W-gDM" firstAttribute="trailing" secondItem="0uu-Rd-5Zk" secondAttribute="trailing" constant="46"/>
+                    <constraint id="1240" firstItem="0uu-Rd-5Zk" firstAttribute="top" secondItem="YTl-1W-gDM" secondAttribute="top" constant="18"/>
+                    <constraint id="1245" firstItem="5NU-Du-U9Y" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leading" constant="49"/>
+                    <constraint id="1246" firstItem="5NU-Du-U9Y" firstAttribute="top" secondItem="YTl-1W-gDM" secondAttribute="top" constant="19"/>
+                    <constraint id="1849" firstItem="YTl-1W-gDM" firstAttribute="trailing" secondItem="863" secondAttribute="trailing" constant="8"/>
+                    <constraint id="1943" firstItem="AXN-0N-avy" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leading" constant="8"/>
+                    <constraint id="1946" firstItem="AXN-0N-avy" firstAttribute="top" secondItem="dp4-Ct-sn1" secondAttribute="bottom" constant="9"/>
+                    <constraint id="1948" firstItem="863" firstAttribute="centerY" secondItem="AXN-0N-avy" secondAttribute="centerY"/>
+                    <constraint id="1951" firstItem="YTl-1W-gDM" firstAttribute="trailing" secondItem="H7w-wJ-LIl" secondAttribute="trailing"/>
+                    <constraint id="1953" firstItem="H7w-wJ-LIl" firstAttribute="top" secondItem="AXN-0N-avy" secondAttribute="bottom" constant="8"/>
+                    <constraint id="1959" firstItem="1010" firstAttribute="top" secondItem="H7w-wJ-LIl" secondAttribute="centerY" constant="8"/>
+                    <constraint id="1961" firstItem="1009" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leading" constant="24"/>
+                    <constraint id="1963" firstItem="1009" firstAttribute="centerY" secondItem="1010" secondAttribute="centerY"/>
+                    <constraint id="1966" firstItem="YTl-1W-gDM" firstAttribute="trailing" secondItem="1746" secondAttribute="trailing" constant="8"/>
+                    <constraint id="1972" firstItem="YTl-1W-gDM" firstAttribute="trailing" secondItem="a6i-hH-cLy" secondAttribute="trailing" constant="8"/>
+                    <constraint id="1982" firstItem="1746" firstAttribute="trailing" secondItem="863" secondAttribute="trailing"/>
+                    <constraint id="2061" firstItem="1010" firstAttribute="leading" secondItem="AXN-0N-avy" secondAttribute="leading"/>
+                    <constraint id="2071" firstItem="1010" firstAttribute="leading" secondItem="AXN-0N-avy" secondAttribute="leading"/>
+                    <constraint id="2078" firstItem="1746" firstAttribute="leading" secondItem="AXN-0N-avy" secondAttribute="leading"/>
+                    <constraint id="2148" firstItem="1746" firstAttribute="top" secondItem="H7w-wJ-LIl" secondAttribute="centerY" constant="31" relation="lessThanOrEqual"/>
+                    <constraint id="2150" firstItem="1746" firstAttribute="top" secondItem="dp4-Ct-sn1" secondAttribute="bottom" constant="65" relation="greaterThanOrEqual"/>
+                    <constraint id="2160" firstItem="a6i-hH-cLy" firstAttribute="top" secondItem="1746" secondAttribute="bottom"/>
+
+
+                </constraints>
+
+                            </tableViewCellContentView>
+            <connections>
+
+                <outlet property="givenWelldoneText" destination="1009" id="name-outlet-1009"/>
+                <outlet property="hidden_lblHours" destination="wYL-Sc-6Et" id="OU7-QC-tud"/>
+                <outlet property="hidden_lblOrg" destination="6yk-e0-lUM" id="rFP-fA-Mi8"/>
+                <outlet property="postDetails" destination="AXN-0N-avy" id="name-outlet-AXN-0N-avy"/>
+                <outlet property="profileImage" destination="630" id="name-outlet-630"/>
+                <outlet property="wellDoneButton" destination="863" id="name-outlet-863"/>
+
+            </connections>
+
+            <point key="canvasLocation" x="288" y="171"/>
+
+        </tableViewCell>
+
+    </objects>
+
+     <resources>
+         <image name="givenWelldones.png" width="44" height="44"/>
+
+<image name="noImage.png" width="44" height="44"/>
+<image name="pencil.png" width="44" height="44"/>
+<image name="wellDoneGray.png" width="44" height="44"/>
+<image name="camera_icon.png" width="44" height="44"/>
+<image name="Tabs/Selected/activity.png" width="25" height="25"/>
+<image name="Tabs/Selected/loghours.png" width="25" height="25"/>
+<image name="Tabs/Selected/profile.png" width="25" height="25"/>
+<image name="Tabs/Normal/activity.png" width="25" height="25"/>
+<image name="Tabs/Normal/loghours.png" width="25" height="25"/>
+<image name="Tabs/Normal/profile.png" width="25" height="25"/>
+<image name="thumbs_up.png" width="44" height="44"/>
+<image name="edit_pencil.png" width="44" height="44"/>
+<image name="thumbs_up_icon.png" width="64" height="64"/>
+<image name="clock_icon.png" width="44" height="44"/>
+<image name="play_button.png" width="44" height="44"/>
+<image name="left_arrow.png" width="44" height="44"/>
+<image name="right_arrow.png" width="44" height="44"/>
+<image name="ic_play_button.png" width="144" height="144"/>
+<image name="Tabs/Selected/settingsTools.png" width="28.333334" height="28.333334"/>
+<image name="Tabs/Normal/settingsTools.png" width="28.333334" height="28.333334"/>
+<image name="Logo_outline2.png" width="348" height="314"/>
+<image name="porpoise_background.png" width="1024" height="1366"/>
+<image name="Tabs/Normal/support.png" width="28.333334" height="28.333334"/>
+<image name="Tabs/Selected/support.png" width="30" height="30"/>
+<image name="Tabs/Normal/activityIcon.png" width="34" height="34"/>
+<image name="Tabs/Normal/iconProfile.png" width="34" height="34"/>
+<image name="Tabs/Normal/intercom.png" width="34" height="34"/>
+<image name="Tabs/Normal/plusIcon.png" width="34" height="34"/>
+<image name="Tabs/Normal/profileBarIcon.png" width="112" height="112"/>
+<image name="Tabs/Normal/profileImage.png" width="50" height="50"/>
+<image name="Tabs/Normal/settings.png" width="34" height="34"/>
+<image name="delete.png" width="44" height="44"/>
+<image name="dotbutton.png" width="44" height="44"/>
+<image name="dots_1.png" width="66" height="66"/>
+<image name="dots.png" width="44" height="12"/>
+<image name="Entypo_d83d(0)_128.png" width="128" height="128"/>
+<image name="linea_78(0)_44.png" width="44" height="44"/>
+<image name="linea_78(0)_66.png" width="66" height="66"/>
+<image name="thumbs.png" width="44" height="44"/>
+<image name="thumbs1.jpg" width="44" height="44"/>
+<image name="wellDoneOrange.png" width="44" height="44"/>
+<image name="PlayButton.png" width="798" height="798"/>
+<image name="logo.png" width="44" height="44"/>
+<image name="logout.png" width="33" height="33"/>
+     </resources>
+
+</document>
+
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="A48-pq-fsS"/>
+                        <exclude reference="SSp-o0-h1d"/>
+                        <exclude reference="tcg-cp-P0B"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular-widthClass=regular">
+                    <mask key="constraints">
+                        <exclude reference="AMr-TJ-b8c"/>
+                        <include reference="SSp-o0-h1d"/>
+                        <include reference="tcg-cp-P0B"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="0.053798491379310344" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="Date" destination="a6i-hH-cLy" id="7qN-eJ-Uhc"/>
+                <outlet property="EditButton" destination="60Z-WM-sVB" id="mzB-aN-3fF"/>
+                <outlet property="EmployeeName" destination="5NU-Du-U9Y" id="Kmr-to-qzP"/>
+                <outlet property="PostDetails" destination="AXN-0N-avy" id="NpR-hn-bUi"/>
+                <outlet property="UploadedImage" destination="dp4-Ct-sn1" id="BsD-px-yGw"/>
+                <outlet property="WellDoneButton" destination="Aeo-4E-mjf" id="8lG-k4-wgO"/>
+                <outlet property="hidden_lblHours" destination="wYL-Sc-6Et" id="OU7-QC-tud"/>
+                <outlet property="hidden_lblOrg" destination="6yk-e0-lUM" id="rFP-fA-Mi8"/>
+            </connections>
+            <point key="canvasLocation" x="304" y="296"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="edit_pencil.png" width="44" height="44"/>
+        <image name="thumbs_up.png" width="44" height="44"/>
+    </resources>
+</document>

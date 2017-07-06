@@ -1,0 +1,183 @@
+// WARNING
+//
+// This file has been generated automatically by Xamarin Studio from the outlets and
+// actions declared in your storyboard file.
+// Manual changes to this file will not be maintained.
+//
+using Foundation;
+using System;
+using System.CodeDom.Compiler;
+
+namespace PorpoiseMobileApp.iOS
+{
+    [Register ("ProfileViewController")]
+    partial class ProfileViewController
+    {
+        [Outlet]
+        UIKit.UIScrollView ActivityScrollView { get; set; }
+
+
+       /* [Outlet]
+        UIKit.NSLayoutConstraint ChartViewTrailing { get; set; }
+
+
+        [Outlet]
+        UIKit.UIImageView ClockIcon { get; set; }*/
+
+
+        [Outlet]
+        UIKit.UILabel EmployeeName { get; set; }
+
+
+        /*[Outlet]
+        UIKit.UIImageView GoalsPlaceholder { get; set; }
+
+
+        [Outlet]
+        UIKit.UIScrollView GoalsScrollView { get; set; }*/
+
+
+        [Outlet]
+        UIKit.UIView HeaderBackground { get; set; }
+
+
+        [Outlet]
+        UIKit.UIView HeaderDetailsContainer { get; set; }
+
+
+        [Outlet]
+        UIKit.UITableView LatestPostTableView { get; set; }
+
+
+        /*[Outlet]
+        UIKit.UILabel lblGoals { get; set; }*/
+
+
+       /*[Outlet]
+        UIKit.UILabel lblHourAmount { get; set; }
+
+
+        [Outlet]
+        UIKit.UILabel lblHoursGiven { get; set; }*/
+
+
+        [Outlet]
+        UIKit.UILabel lblLatest { get; set; }
+
+
+        /*[Outlet]
+        UIKit.UIImageView LeftArrow { get; set; }*/
+
+
+        [Outlet]
+        UIKit.UILabel Location { get; set; }
+
+
+        [Outlet]
+        UIKit.UIView Overlay { get; set; }
+
+
+        [Outlet]
+        UIKit.UIImageView ProfilePicture { get; set; }
+
+
+        /*[Outlet]
+        UIKit.UIImageView RightArrow { get; set; }*/
+
+
+        [Outlet]
+        UIKit.UIActivityIndicatorView waiting { get; set; }
+
+
+        [Action ("ChartViewRecognizer:")]
+        partial void ChartViewRecognizer (Foundation.NSObject sender);
+
+        void ReleaseDesignerOutlets ()
+        {
+            if (ActivityScrollView != null) {
+                ActivityScrollView.Dispose ();
+                ActivityScrollView = null;
+            }
+
+           /* if (ClockIcon != null) {
+                ClockIcon.Dispose ();
+                ClockIcon = null;
+            }*/
+
+            if (EmployeeName != null) {
+                EmployeeName.Dispose ();
+                EmployeeName = null;
+            }
+
+            /*if (GoalsScrollView != null) {
+                GoalsScrollView.Dispose ();
+                GoalsScrollView = null;
+            }*/
+
+            if (HeaderBackground != null) {
+                HeaderBackground.Dispose ();
+                HeaderBackground = null;
+            }
+
+            if (HeaderDetailsContainer != null) {
+                HeaderDetailsContainer.Dispose ();
+                HeaderDetailsContainer = null;
+            }
+
+            if (LatestPostTableView != null) {
+                LatestPostTableView.Dispose ();
+                LatestPostTableView = null;
+            }
+
+           /* if (lblGoals != null) {
+                lblGoals.Dispose ();
+                lblGoals = null;
+            }
+
+            if (lblHourAmount != null) {
+                lblHourAmount.Dispose ();
+                lblHourAmount = null;
+            }
+
+            if (lblHoursGiven != null) {
+                lblHoursGiven.Dispose ();
+                lblHoursGiven = null;
+            }*/
+
+            if (lblLatest != null) {
+                lblLatest.Dispose ();
+                lblLatest = null;
+            }
+
+           /* if (LeftArrow != null) {
+                LeftArrow.Dispose ();
+                LeftArrow = null;
+            }*/
+
+            if (Location != null) {
+                Location.Dispose ();
+                Location = null;
+            }
+
+            if (Overlay != null) {
+                Overlay.Dispose ();
+                Overlay = null;
+            }
+
+            if (ProfilePicture != null) {
+                ProfilePicture.Dispose ();
+                ProfilePicture = null;
+            }
+
+            /*if (RightArrow != null) {
+                RightArrow.Dispose ();
+                RightArrow = null;
+            }*/
+
+            if (waiting != null) {
+                waiting.Dispose ();
+                waiting = null;
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@color/porpoise_turquoise">
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/porpoise_turquoise"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+        <PorpoiseMobileApp.Droid.Controls.SoloTabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>-->
+  
+    <LinearLayout
+        android:id="@+id/activity_empty_post_item"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:visibility="invisible"
+        android:gravity="top|center_horizontal">
+        <TextView
+            android:id="@+id/empty_post_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ACACAC"
+            android:text="Oh no! You don't have any posts yet! Go ahead and create one so you can see it here."
+            android:textSize="12sp"
+            android:gravity="center" />
+    </LinearLayout>
+    
+      <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <MvxListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="none"
+            android:fastScrollEnabled="false"
+            android:id="@+id/posts_list"
+            android:background="@color/white"
+            local:MvxItemTemplate="@layout/post_item" />
+      
+    <!--<com.refractored.fab.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="10dp"
+            android:src="@drawable/bold_plus"
+            local:fab_colorNormal="@color/porpoise_pink"
+            local:fab_colorPressed="@color/porpoise_pink_dark"
+            local:fab_colorRipple="@color/porpoise_turquoise" />-->
+    </FrameLayout>
+</LinearLayout>

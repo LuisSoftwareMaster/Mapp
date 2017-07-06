@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/profile_item">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="challenges"
+        android:textAllCaps="true"
+        android:textSize="18dp"
+        android:textColor="@color/porpoise_headers_grey"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+    <LinearLayout
+        android:id="@+id/goals_linear_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+        <ImageView
+            android:id="@+id/left_arrow"
+            android:layout_width="65dp"
+            android:layout_gravity="center"
+            android:src="@drawable/left_arrow"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView
+            android:id="@+id/goals_recycler_view"
+            android:scrollbars="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            local:MvxItemTemplate="@layout/goal_item"
+            android:layout_weight="1" />
+        <ImageView
+            android:id="@+id/right_arrow"
+            android:layout_height="wrap_content"
+            android:layout_width="65dp"
+            android:layout_gravity="center"
+            android:src="@drawable/right_arrow"
+            android:layout_weight="1" />
+    </LinearLayout>
+<!--Latest Post-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="your posts"
+        android:textAllCaps="true"
+        android:textSize="18dp"
+        android:textColor="@color/porpoise_headers_grey"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

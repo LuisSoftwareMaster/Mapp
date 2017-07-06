@@ -1,0 +1,53 @@
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in /Applications/Android Studio.app/sdk/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the proguardFiles
+# directive in build.gradle.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+# start Intercom SDK Proguard rules
+-keep class io.intercom.android.** { *; }
+
+-dontwarn rx.**
+-dontwarn io.intercom.okio.**
+
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep class io.intercom.okhttp3.** { *; }
+-keep interface io.intercom.okhttp3.** { *; }
+-dontwarn io.intercom.okhttp3.**
+
+-dontwarn io.intercom.retrofit2.**
+-keep class io.intercom.retrofit2.** { *; }
+-keepattributes Exceptions
+
+-keepclasseswithmembers class * {
+    @io.intercom.retrofit2.http.* <methods>;
+}
+
+-keepclassmembers class ** {
+    @io.intercom.com.squareup.otto.Subscribe public *;
+    @io.intercom.com.squareup.otto.Produce public *;
+}
+
+# Fix warning about API 24 method used in HtmlCompat when using older build tools/compileSdkVersion
+# https://github.com/intercom/intercom-android/issues/291#issuecomment-262886043
+# TODO: Reproduce the issue and limit this rule to the HtmlCompat class
+-dontwarn io.intercom.android.sdk.utilities.**
+
+-keep public class * implements io.intercom.com.bumptech.glide.module.GlideModule
+# end Intercom SDK Proguard rules
+#}
+
+-dontwarn javax.annotation.meta.**
+-dontwarn javax.annotation.**
+

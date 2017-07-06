@@ -1,0 +1,10 @@
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/bin/iPhone/Debug/PorpoiseUnitTest.exe
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/bin/iPhone/Debug/PorpoiseUnitTest.pdb
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/obj/iPhone/Debug/optimized/
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/obj/iPhone/Debug/PorpoiseUnitTest.csprojResolveAssemblyReference.cache
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/obj/iPhone/Debug/PorpoiseUnitTest.csproj.CoreCompileInputs.cache
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/obj/iPhone/Debug/PorpoiseUnitTest.exe
+/Users/luis/Documents/BACKUP/porpoise-mobile-app/PorpoiseMobileApp/PorpoiseUnitTest/obj/iPhone/Debug/PorpoiseUnitTest.pdb

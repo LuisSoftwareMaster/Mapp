@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">Mapp</string>
+	<string name="action_settings">Settings</string>
+	<string name="sign_up">Sign Up</string>
+	<string name="log_in">Log In</string>
+	<string name="fullname">Full name</string>
+	<string name="email">Email</string>
+	<string name="password">Password</string>
+	<string name="accept">Accept</string>
+	<string name="decline">Decline</string>
+	<string name="terms_of_service">Terms of Service</string>
+	<string name="password_incorrect">Incorrect Password, try again.</string>
+	<string name="password_invalid">Must be 6+ characters</string>
+	<string name="email_invalid">Must be valid email</string>
+	<string name="ok">Ok</string>
+	<string name="cancel">Cancel</string>
+	<string name="authenticate">Authenticate</string>
+	<string name="email_sent">Email Sent</string>
+	<string name="email_sent_message">An email has been sent with instructions.</string>
+	<string name="email_not_found">Email Not Found</string>
+	<string name="drawer_open">Open</string>
+	<string name="drawer_close">Close</string>
+	<string name="log_out_title">Log Out</string>
+	<string name="are_you_sure_logout">Are you sure you want to log out?</string>
+	<string name="change">Change</string>
+	<string name="welcome_sentence">Welcome back, {0}!</string>
+	<string name="server_error">Error communicating with server</string>
+	<string name="facebook_app_id">1328825153869236</string>
+	<string name="skip">Skip</string>
+	<string name="submit">Submit</string>
+	<string name="success_title">Success</string>
+	<string name="failed_title">Sorry...</string>
+	<string name="filter_title_accounthome">Account Home</string>
+	<string name="no_google_play">Google Play Not Installed</string>
+	<string name="hoursAmount_invalid">Please enter a valid amount of hours</string>
+	<string name="highlight_invalid">Please enter a highlight.</string>
+	<string name="OpenDrawerString">Open navigation drawer</string>
+	<string name="CloseDrawerString">Close navigation drawer</string>
+	<string name="UserActivity">Mine</string>
+	<string name="AllActivity">All</string>
+	<string name="PostDonationSentence">Posted {0} hours to {1}!</string>
+	<string-array name="image_ids">
+        <item>@drawable/image_1</item>
+        <item>@drawable/image_2</item>
+        <item>@drawable/image_3</item>
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_5</item>
+        <item>@drawable/image_6</item>
+        <item>@drawable/image_7</item>
+        <item>@drawable/image_8</item>
+        <item>@drawable/image_9</item>
+        <item>@drawable/image_1</item>
+        <item>@drawable/image_2</item>
+        <item>@drawable/image_3</item>
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_5</item>
+        <item>@drawable/image_6</item>
+        <item>@drawable/image_7</item>
+        <item>@drawable/image_8</item>
+        <item>@drawable/image_9</item>
+    </string-array>
+
+</resources>
